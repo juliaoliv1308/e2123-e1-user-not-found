@@ -20,4 +20,3 @@ Para iniciar o projeto utilize esse comando no terminal:
   
 Esse comando vai iniciar  o servidor de desenvolvimento do Django, e você poderá acessar seu projeto em um navegador acessando http://localhost:8000/.
 
-s
