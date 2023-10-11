@@ -31,3 +31,22 @@ ivaaa
 No OktoberTech, você encontrará:
 
 Workshops e Palestras: Durante a OktoberTech, teremos uma programação repleta de workshops e palestras com profissionais renomados do mercado de tecnologia, destacando o potencial dos talentos. Serão abordados temas como tendências tech dos próximos 10 anos, desenvolvimento de aplicativos, liderança eficaz e muito mais, tudo com foco no desenvolvimento e valorização dos talentos do setor. Prepare-se para adquirir conhecimentos valiosos e se atualizar sobre as últimas tendências do setor, impulsionando seus próprios talentos no mundo da tecnologia.
+
+--------------------------------------------------------------------------------------  
+# Daily 05-10-2023  
+ 
+Projeto em andamento  
+
+## Integrantes da equipe:
+- Victor Gabrial
+- Angelo
+- Ivanir
+- Daniele
+- Julia
+
+* Praticamos o git checkout.
+* Praticamos o git merge.
+* Vimos o passo a passo que preciamos uzar para codar nas nossas dev's e usar o merge para a dev principal.
+ ## Hoje:
+ Hoje, faremos um template grafico de como sera a parte visual do site para termos uma noção melhor de como sera o site final e suas funcionalidades.
+
