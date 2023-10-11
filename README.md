@@ -43,7 +43,7 @@ Projeto em andamento
 - Ivanir
 - Daniele
 - Julia
-
+--------------------------------------------------------------------------------------
 * Praticamos o git checkout.
 * Praticamos o git merge.
 * Vimos o passo a passo que preciamos uzar para codar nas nossas dev's e usar o merge para a dev principal.
