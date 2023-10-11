@@ -52,17 +52,13 @@ Projeto em andamento
 - Julia
 --------------------------------------------------------------------------------------
 
-O que fizemos ontem?
-
-
-O que faremos hoje?
-
-
-O que está nos impedindo?
-
+## O que fizemos ontem?
 * Praticamos o git checkout.
 * Praticamos o git merge.
 * Vimos o passo a passo que preciamos uzar para codar nas nossas dev's e usar o merge para a dev principal.
- ## Hoje:
- Hoje, faremos um template grafico de como sera a parte visual do site para termos uma noção melhor de como sera o site final e suas funcionalidades.
 
+## O que faremos hoje?
+Hoje, faremos um template grafico de como sera a parte visual do site para termos uma noção melhor de como sera o site final e suas funcionalidades.
+
+## O que está nos impedindo?
+Não encontramos nada que esteje nos impedindo 
