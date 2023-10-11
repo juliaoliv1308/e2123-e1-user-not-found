@@ -12,11 +12,13 @@
         {% endblock %}
     </header>
     <main>
-        
+        {% block content %}
+        <!-- O conteúdo específico de cada página será inserido aqui -->
+        {% endblock %}
     </main>
     <footer>
-        {% block navbar %}
-            {% include 'footer/nav.html' %}
+        {% block footer %}
+            {% include 'main/footer.html' %}
         {% endblock %}
     </footer>
 </body>
