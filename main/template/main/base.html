@@ -7,7 +7,17 @@
 </head>
 <body>
     <header>
-        
+        {% block navbar %}
+            {% include 'main/nav.html' %}
+        {% endblock %}
     </header>
+    <main>
+
+    </main>
+    <footer>
+        {% block navbar %}
+            {% include 'footer/nav.html' %}
+        {% endblock %}
+    </footer>
 </body>
 </html>
