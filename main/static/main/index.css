@@ -34,9 +34,14 @@ header {
     justify-content: space-around;
     list-style: none;
 } .listaheader li {
-    padding: 5px;
-    background-color: #4B9EB3;
+    padding: 5px;  /*preenchimento interno dos botões*/
+    margin: 20px;    /*espaçamento entre os botões*/
+    background-color: #1596b6;  /*cor dos botões*/
     border-radius: 5px;
+    flex: 1;       /*espaços iguais entre os botões*/
+    text-align: center;  /*centralização do texto dentro dos botões*/
+    min-width: 80px;      /* definição de larg minima do botão */
+    transition: background-color 0.3s;
 }
  .titulo {
     display: flex;
@@ -45,6 +50,10 @@ header {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+.listaheader li:hover {
+    background-color: #175375;  /*cor do contraste*/
+    color: #fff;  /*Alterar a cor do texto para branco quando contraste */
 }
 
 /* Main */
