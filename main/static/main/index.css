@@ -23,25 +23,27 @@ header {
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #5CC2DB;
     border-top: solid black 1px;
 } .navheader {
-    width: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
 }
  .listaheader {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
 } .listaheader li {
     padding: 5px;  /*preenchimento interno dos botões*/
-    margin: 20px;    /*espaçamento entre os botões*/
     background-color: #1596b6;  /*cor dos botões*/
-    border-radius: 5px;
-    flex: 1;       /*espaços iguais entre os botões*/
+    border-radius: 2px;
     text-align: center;  /*centralização do texto dentro dos botões*/
     min-width: 80px;      /* definição de larg minima do botão */
-    transition: background-color 0.3s;
+    transition: 0.3s;
 }
  .titulo {
     display: flex;
@@ -54,15 +56,53 @@ header {
 .listaheader li:hover {
     background-color: #175375;  /*cor do contraste*/
     color: #fff;  /*Alterar a cor do texto para branco quando contraste */
+    cursor:pointer;
+    min-width: 90px;
 }
 
 /* Main */
 main {
-    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+} main section {
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} .divmain {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+} .divmain div {
+    width: 32%;
+    height: 90%;
+    background-color: #175375;
+    border-radius: 5px;
 }
+
 
 /* Footer */
 footer {
+    padding: 0;
+    margin: 0;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} footer ul {
+    padding: 0;
+    margin: 0;
+}.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    line-height: 5px;
 }
