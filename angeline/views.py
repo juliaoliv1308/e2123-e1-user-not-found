@@ -1,25 +1,26 @@
 from django.shortcuts import render
+from .dicionarios import acao, suspense, romance, biografias, terror
 
 # Create your views here.
 def helloworld(request):
-    for id_livro, info in principal.items():
-        id_fornecedor = info['codigo_fornecedor']
-        fornecedor_info = fornecedores.get(id_fornecedor, "ID não encontrado")
+    novo_dicionario = {}
 
-        
-        if fornecedor_info and categoria_info != "ID não encontrado":
-            lista_fusão[id_livro] = {
-                'nome': info['nome'],
-            }
-            media = media + info['diasvencidos']
-        else:
-            lista_fusão[id_livro] = {
-                'nome': info['nome'],
-            }
+    for i in range(1, 7):
+        novo_dicionario[str(i)] = {
+            'nome': acao[str(i)]['nome'],
+            'resumo': suspense[str(i)]['resumo'],
+            'linkimg': romance[str(i)]['linkimg'],
+            'pdf': biografias[str(i)]['pdf'],
+            'nota': terror[str(i)]['nota']
+        }
+
+    # Exibindo o novo dicionário    
+    print(novo_dicionario)
 
     context = {
-
+        "novo_dic": novo_dicionario,
+        'range_2': [0, 1],
+        'range_3': [0, 1, 3]
     }
-    return render(request, 'angeline/index.html')
-
+    return render(request, 'angeline/index.html', context)
  

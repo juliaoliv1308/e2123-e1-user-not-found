@@ -4,9 +4,11 @@
 {% block content %}
 
 <section>
-    <div class="divsecmain" >
+    {% for _ in range_2 %}
+    <div class="divsecmain">
+        {% for _ in range_3 %}
         <div class="divmain">
-            <img class="bookimg" src="{% static 'main/alice.jpg' %}"></img>
+            <img class="bookimg" src="{% static 'main/alice.jpg' %}" />
             <div class="txtmain">
                 <h1 class="txth1">Alice no País das Maravilhas</h1>
                 <div class="txtback">
@@ -16,14 +18,9 @@
                 </div>
             </div>
         </div>
-        <div class="divmain"></div>
-        <div class="divmain"></div>
+        {% endfor %}
     </div>
-    <div class="divsecmain">
-        <div class="divmain"></div>
-        <div class="divmain"></div>
-        <div class="divmain"></div>
-    </div>
+    {% endfor %}
 </section>
 
 {% endblock %}
