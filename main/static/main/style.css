@@ -30,8 +30,7 @@ header {
     width: 90%;
     display: flex;
     justify-content: space-around;
-}
- .listaheader {
+} .listaheader {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -55,21 +54,24 @@ header {
     background-color: #F3F3F3;
     border-radius: 10px;
     transition: all 0.5s;
-}
-input:hover,input:focus {
+} input:hover,input:focus {
     border: 2px solid #9fbda8;
-    box-shadow: 0px 0px 0px 7px rgb(68, 87, 75, 20%);
+    box-shadow: 0px 0px 0px 7px rgb(68, 87, 75, 40%);
     background-color: white;
-}
- .titulo {
+} .titulo {
+    display: flex;
+    align-items: center;
+    
+} a{
+    text-decoration: none;
+    color: black;
     display: flex;
     align-items: center;
 } .logoimg {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-}
-.listaheader li:hover {
+} .listaheader li:hover {
     background-color: rgb(68, 87, 75);  /*cor do contraste*/
     color: #fff;  /*Alterar a cor do texto para branco quando contraste */
     cursor:pointer;
@@ -101,14 +103,17 @@ main {
     background-color: #31573D;
     border-radius: 5px;
     display: flex;
+    transition: 0.3s;
     justify-content: space-between;
 } .divmain:hover {
     transform: scale(1.05);
     box-shadow: 0.5px 0.5px 3px 1px rgba(26, 26, 26, 0.604);
-    transition: 0.3s;
     cursor: pointer;
-}
- .bookimg {
+} .divmain:hover h1 {
+    transition: 0.3s;
+    color: white;
+    font-size: 26px;
+} .bookimg {
     width: 45%;
     height: 100%;
     border-radius: 5px 0px 0px 5px;
@@ -116,7 +121,7 @@ main {
     width: 55%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }.txtback {
@@ -130,8 +135,7 @@ main {
 } .txth1 {
     margin: 2px;
     text-align: center;
-}
- .txtmain p {
+} .txtmain p {
     width: 85%;
     font-size: 85%;
 }
