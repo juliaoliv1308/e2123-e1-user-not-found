@@ -18,6 +18,6 @@ terror = {
     
 }
 
-ficcaso = {
+ficcafso = {
     
 }
