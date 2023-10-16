@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User not found</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
+</head>
+<body>
+    <header>
+        {% block navbar %}
+            {% include 'main/header.html' %}
+        {% endblock %}
+    </header>
+    <main>
+        {% block content %}
+        <!-- O conteúdo específico de cada página será inserido aqui -->
+        {% endblock %}
+    </main>
+    <footer>
+        {% block footer %}
+            {% include 'main/footer.html' %}
+        {% endblock %}
+    </footer>
+</body>
+</html>
