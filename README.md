@@ -1,4 +1,6 @@
 # e2123-e1-user-not-found
+Teste02
+Teste03
 
 # Biblioteca
 
@@ -28,6 +30,8 @@ ivaaa
 No OktoberTech, você encontrará:
 
 Workshops e Palestras: Durante a OktoberTech, teremos uma programação repleta de workshops e palestras com profissionais renomados do mercado de tecnologia, destacando o potencial dos talentos. Serão abordados temas como tendências tech dos próximos 10 anos, desenvolvimento de aplicativos, liderança eficaz e muito mais, tudo com foco no desenvolvimento e valorização dos talentos do setor. Prepare-se para adquirir conhecimentos valiosos e se atualizar sobre as últimas tendências do setor, impulsionando seus próprios talentos no mundo da tecnologia.
+Teste02 
+Teste03
 
 --------------------------------------------------------------------------------------  
 
@@ -59,6 +63,34 @@ Projeto em andamento
 
 ## O que faremos hoje?
 Hoje, faremos um template grafico de como sera a parte visual do site para termos uma noção melhor de como sera o site final e suas funcionalidades.
+
+## O que está nos impedindo?
+Não encontramos nada que esteje nos impedindo 
+
+
+# Daily 12/10/2023 
+
+
+
+# Daily 16-10-2023  
+ 
+Projeto em andamento  
+
+## Integrantes da equipe:
+- Victor Gabrial
+- Angelo
+- Ivanir
+- Daniele
+- Julia
+--------------------------------------------------------------------------------------
+
+## O que fizemos ontem?
+* Foi feito front-end com html representativo.
+* Foi feito o git merge.
+
+
+## O que faremos hoje?
+Hoje, faremos a correção do front-end e começaremos a lógica.
 
 ## O que está nos impedindo?
 Não encontramos nada que esteje nos impedindo 
