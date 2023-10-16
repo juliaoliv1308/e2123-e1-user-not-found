@@ -58,7 +58,7 @@ header {
 }
 input:hover,input:focus {
     border: 2px solid #9fbda8;
-    box-shadow: 0px 0px 0px 7px rgb(68, 87, 75, 20%);
+    box-shadow: 0px 0px 0px 7px rgb(68, 87, 75, 40%);
     background-color: white;
 }
  .titulo {
@@ -107,8 +107,9 @@ main {
     box-shadow: 0.5px 0.5px 3px 1px rgba(26, 26, 26, 0.604);
     transition: 0.3s;
     cursor: pointer;
-}
- .bookimg {
+} .divmain:hover h1 {
+    color: white;
+} .bookimg {
     width: 45%;
     height: 100%;
     border-radius: 5px 0px 0px 5px;
