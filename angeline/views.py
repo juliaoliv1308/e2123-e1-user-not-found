@@ -1,21 +1,31 @@
 from django.shortcuts import render
-from .dicionarios import acao, suspense, romance, biografias, terror
+from .dicionarios import acao, suspense, romance, biografias, terror, ficcao
 
 # Create your views here.
+
+def melhores(dicionarios):
+    notas_maximas = {}
+    for categoria, dicionario in dicionarios.items():
+        nota_maxima = max(dicionario, key=lambda k: dicionario[k]["nota"])
+        notas_maximas[categoria] = dicionario[nota_maxima]
+    
+    return notas_maximas
+
+dicionarios = {
+    "Ação": acao,
+    "Suspense": suspense,
+    "Romance": romance,
+    "Biografias": biografias,
+    "Terror": terror,
+    "Ficção Científica": ficcao,
+}
+
 def helloworld(request):
     novo_dicionario = {}
 
-    for i in range(1, 7):
-        novo_dicionario[str(i)] = {
-            'nome': acao[str(i)]['nome'],
-            'resumo': suspense[str(i)]['resumo'],
-            'linkimg': romance[str(i)]['linkimg'],
-            'pdf': biografias[str(i)]['pdf'],
-            'nota': terror[str(i)]['nota']
-        }
-
-    # Exibindo o novo dicionário    
-    print(novo_dicionario)
+    # Calcule as notas mais altas
+    notas_maximas = melhores(dicionarios)
+    print(notas_maximas)
 
     context = {
         "novo_dic": novo_dicionario,
@@ -23,4 +33,7 @@ def helloworld(request):
         'range_3': [0, 1, 3]
     }
     return render(request, 'angeline/index.html', context)
- 
+
+
+
+
