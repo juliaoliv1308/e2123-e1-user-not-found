@@ -94,14 +94,22 @@ a:hovet {
     display: none;
     position: absolute;
     width: 100%;
+    margin-top: 60px;
     right: 0px;
     background: #e7e7e7;
+    transition: .6s;
     height: 100vh;
     z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
 
 }
 #nave.active #menu {
-    display: flex
+    display: flex;
+    height: calc(100vh - 60px);
+    visibility: visible;
+    overflow: auto;
 
 }
 #menu a {
