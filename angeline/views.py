@@ -3,6 +3,7 @@ from .dicionarios import acao, suspense, romance, biografias, terror, ficcao
 
 # Create your views here.
 
+
 def melhores(dicionarios):
     notas_maximas = {}
     for categoria, dicionario in dicionarios.items():
@@ -20,15 +21,21 @@ dicionarios = {
     "Ficção Científica": ficcao,
 }
 
-def helloworld(request):
-    novo_dicionario = {}
+meio = len(dicionarios) // 2
 
-    # Calcule as notas mais altas
-    notas_maximas = melhores(dicionarios)
-    print(notas_maximas)
+# Divide o dicionário em duas partes
+dict1 = dict(list(dicionarios.items())[:meio])
+dict2 = dict(list(dicionarios.items())[meio:])
+
+
+def helloworld(request):
+    notas_maximas1 = melhores(dict1)
+    notas_maximas2 = melhores(dict2)
+    print(notas_maximas1, notas_maximas2)
 
     context = {
-        "novo_dic": novo_dicionario,
+        "novo_dic1": notas_maximas1,
+        "novo_dic2": notas_maximas2,
         'range_2': [0, 1],
         'range_3': [0, 1, 3]
     }
