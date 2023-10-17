@@ -28,6 +28,10 @@ header {
 } .navheader {
     width: 40%;
 }
+.campoDePesquisa {
+width: 250px;
+margin-right: 10px;
+}
  .listaheader {
     display: flex;
     flex-direction: row;
@@ -35,8 +39,9 @@ header {
     list-style: none;
 } .listaheader li {
     padding: 5px;
+    padding-bottom: 5px;
     background-color: #4B9EB3;
-    border-radius: 5px;
+    border-radius: 10px;
 }
  .titulo {
     display: flex;
@@ -56,4 +61,52 @@ main {
 footer {
     background-color: black;
     color: white;
+}
+.botão menu {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+a:hovet {
+    background: rgba(0, 0, 0, .05);
+
+
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+
+}
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+#menu { 
+    display: none;
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    background: #e7e7e7;
+    height: 100vh;
+    z-index: 1000;
+
+}
+#nave.active #menu {
+    display: flex
+
+}
+#menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, .05);
+
 }
