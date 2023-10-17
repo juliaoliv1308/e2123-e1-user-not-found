@@ -11,28 +11,99 @@ acao = {
     10: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 1.6},
 }
 suspense = {
-    1: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 3.4},
-    2: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 6.7},
+    1: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 3.4
+        },
+    2: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 6.7
+        },
     3: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 2.1},
     4: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 8.8},
     5: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 5.2},
-    6: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 9.4},
+    6: {"nome":"Garota Exemplar","resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.","linkimg":"main/livros/suspense/garotaexemplar.jpg","pdf":"","nota": 9.4},
     7: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 4.5},
     8: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 7.2},
     9: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 1.9},
     10: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 6.3},
 }
 romance = {
-    1: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 6.5},
-    2: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 4.1},
-    3: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 7.8},
-    4: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 3.2},
-    5: {"nome":"","resumo":"","linkimg":"main/livros/romance/ahipotesedoamor.jpg","pdf":"","nota": 9.7},
-    6: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 5.6},
-    7: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 8.2},
-    8: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 2.9},
-    9: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 7.1},
-    10: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 4.8},
+    1: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 6.5
+        },
+    2: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 4.1
+        },
+    3: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 7.8
+        },
+    4: {"nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 3.2
+        },
+    5: {
+        "nome":"A Hipótese do Amor",
+        "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
+        "linkimg":"main/livros/romance/ahipotesedoamor.jpg",
+        "pdf":"",
+        "nota": 9.7
+        },
+    6: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 5.6
+        },
+    7: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 8.2
+        },
+    8: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 2.9
+        },
+    9: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 7.1
+        },
+    10: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"",
+        "pdf":"",
+        "nota": 4.8
+        },
 }
 biografias = {
     1: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 4.6},
@@ -54,7 +125,7 @@ terror = {
     5: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 2.7},
     6: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 7.6},
     7: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 4.3},
-    8: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 9.3},
+    8: {"nome":"IT - A Coisa","resumo":"Narra o confronto de um grupo de crianças com uma entidade maligna que assume diversas formas, incluindo o terrível palhaço Pennywise. Medo, amizade e coragem se entrelaçam nesta história aterrorizante.","linkimg":"main/livros/terror/itacoisa.jpg","pdf":"","nota": 9.3},
     9: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 3.5},
     10: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 6.1},
 }
