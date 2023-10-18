@@ -36,8 +36,6 @@ def helloworld(request):
     context = {
         "novo_dic1": notas_maximas1,
         "novo_dic2": notas_maximas2,
-        'range_2': [0, 1],
-        'range_3': [0, 1, 3]
     }
     return render(request, 'angeline/index.html', context)
 
