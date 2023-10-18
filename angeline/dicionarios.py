@@ -122,7 +122,7 @@ biografias = {
     },
     3: {
         "nome":"Elon Musk",
-        "resumo":"Elon Musk Tesla, SpaceX e a Busca por um Futuro Fantástico de Ashlee Vance narra a vida e a busca empreendedora de Elon Musk para revolucionar indústrias como a espacial, de veículos elétricos e solar, destacando seus desafios e sucessos notáveis.",
+        "resumo":"Elon Musk Tesla, SpaceX e a Busca por um Futuro Fantástico narra a vida e a busca empreendedora de revolucionar indústrias em espacial, de veículos elétricos e solar, destacando seus desafios e sucessos notáveis.",
         "linkimg":"main/livros/biografias/elonmusk.jpeg",
         "pdf":"",
         "nota": 2.3
@@ -150,28 +150,28 @@ biografias = {
         },
     7: {
         "nome":"Minha História",
-        "resumo":"Minha História de Michelle Obama é uma autobiografia que explora sua jornada desde a infância em Chicago até os anos na Casa Branca, abordando temas de identidade, igualdade e suas experiências como mulher e mãe em uma posição de influência.",
+        "resumo":"Minha História de Michelle Obama que explora sua jornada desde a infância em Chicago até os anos na Casa Branca, abordando temas de identidade, igualdade e suas experiências como mulher e mãe em uma posição de influência.",
         "linkimg":"main/livros/biografias/michelleobama.jpeg",
         "pdf":"",
         "nota": 1.8
         },
     8: {
         "nome":"Príncipe Harry",
-        "resumo":"O que sobra é uma autobiografia do Príncipe Harry que começa com sua infância após a morte de sua mãe, a Princesa Diana, e aborda sua vida, decisão de se afastar da realeza britânica e relacionamento com Meghan Markle.",
+        "resumo":"O que sobra começa com sua infância após a morte de sua mãe, a Princesa Diana, e aborda sua vida, decisão de se afastar da realeza britânica e relacionamento com Meghan Markle.",
         "linkimg":"main/livros/biografias/principeharry.jpeg",
         "pdf":"",
         "nota": 7.5
         },
     9: {
         "nome":"Rita Lee"
-        ,"resumo":"Rita Lee é um livro incrível, uma autobiografia que parece que você está dentro do livro e a Rita só tá te contando as histórias da vida dela (que aliás não são poucas) é transparente e muito divertido de se ler, ri muito em várias partes e chorei também em algumas.",
+        ,"resumo":"Rita Lee é uma autobiografia que parece que você está dentro do livro, é transparente e muito divertido de se ler, ri muito em várias partes e chorei também em algumas.",
         "linkimg":"main/livros/biografias/ritalee.jpeg",
         "pdf":"",
         "nota": 5.3
         },
     10: {
         "nome":"Steve Jobs",
-        "resumo":"Steve Jobs é uma biografia escrita por Walter Isaacson, revelando a vida e visão do cofundador da Apple, destacando sua paixão pela inovação, seu perfeccionismo e seu impacto duradouro na tecnologia e no design.",
+        "resumo":"Steve Jobs é uma biografia, revelando a vida e visão do cofundador da Apple, destacando sua paixão pela inovação, seu perfeccionismo e seu impacto duradouro na tecnologia e no design.",
         "linkimg":"main/livros/biografias/stevejobs.jpeg",
         "pdf":"",
         "nota": 4.0
