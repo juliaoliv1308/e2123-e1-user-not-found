@@ -21,14 +21,33 @@ dicionarios = {
     "Ficção Científica": ficcao,
 }
 
-meio = len(dicionarios) // 2
+def pesquisar_livros(request):
+    query = request.GET.get('meuCampoDeTexto', '').strip().lower()  # Obtém a consulta de pesquisa, limpa e coloca em letras minúsculas
+    
+    resultados = {}
 
-# Divide o dicionário em duas partes
-dict1 = dict(list(dicionarios.items())[:meio])
-dict2 = dict(list(dicionarios.items())[meio:])
+    for categoria, dicionario in dicionarios.items():
+        livros_correspondentes = {chave: valor for chave, valor in dicionario.items() if query in valor["nome"].lower()}
+        if livros_correspondentes:
+            resultados[categoria] = livros_correspondentes
+
+    context = {
+        "resultados": resultados,
+    }
+    return render(request, 'angeline/resultados_pesquisa.html', context)
+
+
+
+
 
 
 def helloworld(request):
+    meio = len(dicionarios) // 2
+
+    # Divide o dicionário em duas partes
+    dict1 = dict(list(dicionarios.items())[:meio])
+    dict2 = dict(list(dicionarios.items())[meio:])
+        
     notas_maximas1 = melhores(dict1)
     notas_maximas2 = melhores(dict2)
     print(notas_maximas1, notas_maximas2)
