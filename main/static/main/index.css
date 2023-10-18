@@ -118,3 +118,26 @@ a:hovet {
     border-bottom: 2px solid rgba(0, 0, 0, .05);
 
 }
+#btn-mobile{
+    display: flex;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: .5rem;
+}
+#hamburger {
+    border-top: 2px solid;
+    width: 20px;
+
+}
+#hamburger::after, #hamburger::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+
+}
