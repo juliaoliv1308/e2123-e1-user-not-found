@@ -31,13 +31,16 @@ dict2 = dict(list(dicionarios.items())[meio:])
 def helloworld(request):
     notas_maximas1 = melhores(dict1)
     notas_maximas2 = melhores(dict2)
-    print(notas_maximas1, notas_maximas2)
 
     context = {
         "novo_dic1": notas_maximas1,
         "novo_dic2": notas_maximas2,
     }
     return render(request, 'angeline/index.html', context)
+
+def books(request):
+    pass
+    return render(request, 'angeline/books.html')
 
 
 
