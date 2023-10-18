@@ -8,7 +8,9 @@
     </div>
     <div></div>
     <div>
-        <input type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        <form method="get" action="{% url 'angeline:pesquisar_livros' %}">
+            <input type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        </form>
     </div>
 </section>
 <section class="header2">
