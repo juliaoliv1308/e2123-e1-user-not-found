@@ -1,10 +1,8 @@
-const btnmobile = document.getElementById('btn-mobil');
+const btn = document.getElementById('botao');
 
 function toggleMenu() {
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('áctiva');
-
-    btnmobile.addEventListener('click', toggleMenu);
-    
-
+    const header3 = document.getElementById('header3');
+    header3.classList.toggle('active');
 }
+
+btn.addEventListener('click', toggleMenu);
