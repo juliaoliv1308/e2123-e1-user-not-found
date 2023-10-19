@@ -12,27 +12,75 @@ acao = {
 }
 suspense = {
     1: {
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"A Lista de Convidados",
+        "resumo":"A Lista de Convidados é um livro que explora as complexidades das relações humanas e da vida cotidiana por meio da história de um casamento e dos segredos revelados durante a elaboração da lista de convidados, revelando intrigas e emoções profundas.",
+        "linkimg":"main/livros/suspense/alistadeconvidados.jpeg",
         "pdf":"",
         "nota": 3.4
         },
     2: {
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Bird Box",
+        "resumo":"Bird Box é um thriller pós-apocalíptico que acompanha a luta pela sobrevivência de uma mãe e seus filhos em um mundo onde uma entidade misteriosa leva as pessoas à loucura quando são vistas, forçando-as a viver de olhos vendados.",
+        "linkimg":"main/livros/suspense/birdbox.jpeg",
         "pdf":"",
         "nota": 6.7
         },
-    3: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 2.1},
-    4: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 8.8},
-    5: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 5.2},
-    6: {"nome":"Garota Exemplar","resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.","linkimg":"main/livros/suspense/garotaexemplar.jpg","pdf":"","nota": 9.4},
-    7: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 4.5},
-    8: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 7.2},
-    9: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 1.9},
-    10: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 6.3},
+    3: {
+        "nome":"Código da Vinci",
+        "resumo":"Código da Vinci é um romance de Dan Brown que mergulha em uma trama de mistérios e conspirações, enquanto o simbologista Robert Langdon e Sophie Neveu desvendam segredos ligados à Igreja e a um suposto segredo sobre a descendência de Jesus Cristo.",
+        "linkimg":"main/suspense/codigodavinci.jpeg",
+        "pdf":"",
+        "nota": 2.1
+        },
+    4: {
+        "nome":"E Não Sobrou Nenhum",
+        "resumo":"E Não Sobrou Nenhum de Agatha Christie é um thriller de assassinatos em série em que dez estranhos convidados para uma ilha isolada são misteriosamente mortos um a um, desvendando segredos sombrios do passado enquanto lutam por sobreviver.",
+        "linkimg":"main/livros/suspense/enaosobrounenhum.jpeg",
+        "pdf":"",
+        "nota": 8.8
+        },
+    5: {
+        "nome":"Jantar Secreto",
+        "resumo":"Jantar Secreto de Raphael Montes é um thriller perturbador que segue quatro estudantes brasileiros em Madri que embarcam em uma jornada de gastronomia extrema, explorando seus desejos mais sombrios em busca de prazer e poder.",
+        "linkimg":"main/livros/suspense/jantarsecreto.jpg",
+        "pdf":"",
+        "nota": 5.2
+        },
+    6: {
+        "nome":"Garota Exemplar",
+        "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
+        "linkimg":"main/livros/suspense/garotaexemplar.jpg",
+        "pdf":"",
+        "nota": 9.4
+        },
+    7: {
+        "nome":"Manual de Assasinato para Boas Garotas",
+        "resumo":"Manual de Assassino para Boas Garotas é um romance de suspense de Holly Jackson que narra a história de um misterioso aplicativo que desafia garotas a cometerem assassinatos, levando-as a explorar segredos e dilemas morais.",
+        "linkimg":"main/livros/suspense/manualdeassasinatoparaboasgarotas.jpeg",
+        "pdf":"",
+        "nota": 4.5
+        },
+    8: {
+        "nome":"O Que Aconteceu com Annie",
+        "resumo":"O Que Aconteceu com Annie é um thriller de Catherine Steadman que segue a história de um casal que encontra uma mulher perdida na praia, desencadeando um turbilhão de segredos e conspirações que ameaçam suas vidas.",
+        "linkimg":"main/livros/suspense/oqueaconteceucomannie.jpeg",
+        "pdf":"",
+        "nota": 7.2
+        },
+    9: {
+        "nome":"suicidas",
+        "resumo":"",
+        "linkimg":"main/livros/suspense/suicidas.jpg",
+        "pdf":"",
+        "nota": 1.9
+        },
+    10: {
+        "nome":"",
+        "resumo":"",
+        "linkimg":"main/livros/suspense/",
+        "pdf":"",
+        "nota": 6.3
+        },
 }
 romance = {
     1: {
