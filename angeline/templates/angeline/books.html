@@ -1,0 +1,26 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<section>
+    <h1>Detalhes do Livro</h1>
+    <img class="book-cover" src="caminho_para_imagem_do_livro.jpg" alt="Capa do Livro">
+</section>
+<section>
+    <div class="book-details">
+        
+        <h2>Nome do Livro</h2>
+        <p>Autor: Nome do Autor</p>
+        <p>Ano de Publicação: 20XX</p>
+        <p>Gênero: Gênero do Livro</p>
+        <p>Sinopse: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt eros ut mi accumsan,
+            vel fringilla urna congue. Sed ut dictum nisi. Suspendisse potenti. Sed tincidunt dui ut odio dapibus
+            ultrices. lorem</p>
+        <button>Alugar</button>
+    </div>
+</section>
+
+</html>
+
+
+{% endblock %}

@@ -66,3 +66,31 @@ Hoje, faremos um template grafico de como sera a parte visual do site para termo
 
 ## O que está nos impedindo?
 Não encontramos nada que esteje nos impedindo 
+
+
+# Daily 12/10/2023 
+
+
+
+# Daily 16-10-2023  
+ 
+Projeto em andamento  
+
+## Integrantes da equipe:
+- Victor Gabrial
+- Angelo
+- Ivanir
+- Daniele
+- Julia
+--------------------------------------------------------------------------------------
+
+## O que fizemos ontem?
+* Foi feito front-end com html representativo.
+* Foi feito o git merge.
+
+
+## O que faremos hoje?
+Hoje, faremos a correção do front-end e começaremos a lógica.
+
+## O que está nos impedindo?
+Não encontramos nada que esteje nos impedindo 

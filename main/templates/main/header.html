@@ -1,8 +1,10 @@
 {% load static %}
 <section class="header1">
     <div class="titulo">
-        <img class="logoimg" src="{% static 'main/OIG.jpg' %}"></img>
-        <h1>Bookstoire</h1>
+        <a href="{% url 'angeline:helloworld' %}">
+            <img class="logoimg" src="{% static 'main/OIG.jpg' %}"></img>
+            <h1>Bookstoire</h1>
+        </a>
     </div>
     <div></div>
     <div>
@@ -17,8 +19,17 @@
             <li>Politicas de Privacidade</li>
             <li>Créditos</li>
             <li>Biblioteca Digital</li>
+            <li>Login</li>
         </ul>
     </nav> 
+        <form method="get" action="{% url 'angeline:pesquisar_livros' %}">
+        </form>
+    </div>
+</section>
+<section class="header2">
+    {% block navbar %}
+            {% include 'main/nav.html' %}
+    {% endblock %}
 </section>
 <section id="header3">
     <nav id="nav">
