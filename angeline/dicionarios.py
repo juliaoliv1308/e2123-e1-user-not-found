@@ -201,3 +201,13 @@ ficcao = {
     9: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 2.6},
     10: {"nome":"","resumo":"","linkimg":"","pdf":"","nota": 7.7},
 }
+
+
+dicionarios = {
+    "Ação": acao,
+    "Suspense": suspense,
+    "Romance": romance,
+    "Biografias": biografias,
+    "Terror": terror,
+    "Ficção Científica": ficcao,
+}
