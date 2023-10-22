@@ -6,6 +6,6 @@ app_name = 'angeline'
 
 urlpatterns = [
     path('', helloworld, name='helloworld'),
-    path('books', books, name='books'),
+    path('books/<int:book_id>/', books, name='books'),
     path('pesquisar/', pesquisar_livros, name='pesquisar_livros'),
 ]

@@ -54,10 +54,30 @@ def helloworld(request):
     return render(request, 'angeline/index.html', context)
 
 
-def books(request):
-    pass
-    return render(request, 'angeline/books.html')
+def books(request, book_id):
+    livros_encontrados = {}
+    
+    for categoria, lista_livros in dicionarios.items():
+        for id, livro in lista_livros.items():
+            if livro["id"] == book_id:
+                livro["categoria"] = categoria
+                livros_encontrados[categoria] = livro
 
+    # Inicialize as variáveis fora do loop e remova o segundo loop
+    categoriaf = None
+    livrof = None
+
+    for c, l in livros_encontrados.items():
+        categoriaf = c
+        livrof = l
+    
+    context = {
+        'livro': livrof,
+        'categoria': categoriaf,
+    }
+    print(livros_encontrados)
+    
+    return render(request, 'angeline/books.html', context)
 
 
 
