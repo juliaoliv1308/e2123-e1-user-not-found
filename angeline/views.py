@@ -104,4 +104,14 @@ def books(request, book_id):
     return render(request, 'angeline/books.html', context)
 
 
+def categ_livros(request, categ_id):
+    for categoria, dicionario in dicionarios.items():
+        for chave, valor in dicionario.items():
+            pass
 
+
+
+
+
+
+    return render(request, 'angeline/categlivros.html')
