@@ -4,23 +4,19 @@
 {% block content %}
 <section>
     <h1>Detalhes do Livro</h1>
+<<<<<<< HEAD
     <img class="book-cover" src="{% static 'main/livros/terror/itacoisa.jpg' %}" alt="Capa do Livro">
+=======
+    <img class="book-cover" src="{% static livro.linkimg %}" alt="Capa do Livro">
+>>>>>>> origin/dev
 </section>
 <section>
     <div class="book-details">
-        
-        <h2>Nome do Livro</h2>
+        <h2>{{ livro.nome }}</h2>
         <p>Autor: Nome do Autor</p>
         <p>Ano de Publicação: 20XX</p>
-        <p>Gênero: Gênero do Livro</p>
-        <p>Sinopse: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt eros ut mi accumsan,
-            vel fringilla urna congue. Sed ut dictum nisi. Suspendisse potenti. Sed tincidunt dui ut odio dapibus
-            ultrices. lorem</p>
+        <p>Sinopse: {{ livro.resumo }}</p>
         <button>Alugar</button>
     </div>
 </section>
-
-</html>
-
-
 {% endblock %}
