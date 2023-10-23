@@ -6,8 +6,7 @@ cursos = {
         "linkimg":"main/livros/cursos/python.jpg",
         "pdf":"main/livros/cursos/python.pdf",
         "nota": 10,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     2: {
         "id":2,
@@ -16,8 +15,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.8,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     3: {
         "id":3,
@@ -26,8 +24,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.2,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     4: {
         "id":4,
@@ -36,8 +33,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 9.1,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     5: {
         "id":5,
@@ -46,8 +42,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.5,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     6: {
         "id":6,
@@ -56,8 +51,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 8.3,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     7: {
         "id":7,
@@ -66,8 +60,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 5.7,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     8: {
         "id":8,
@@ -76,8 +69,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 4.2,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     9: {
         "id":9,
@@ -86,8 +78,7 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.9,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
     10: {
         "id":10,
@@ -96,60 +87,54 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 1.6,
-        "categoria": 1,
-        "estoque":1
+        "categoria": 1
         },
 }
 suspense = {
     1: {
         "id":11,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"A Lista de Convidados",
+        "resumo":" A Lista de Convidados é um romance que explora os segredos e relacionamentos de um grupo de amigos em uma festa de casamento, revelando intrigas e conflitos ocultos sob a superfície da celebração.",
+        "linkimg":"main/livros/suspense/alistadeconvidados.jpeg",
         "pdf":"",
         "nota": 3.4,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     2: {
         "id":12,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Bird Box",
+        "resumo":"Bird Box é um thriller pós-apocalíptico em que os personagens precisam sobreviver usando vendas nos olhos para evitar ver criaturas misteriosas que induzem insanidade e morte.",
+        "linkimg":"main/livros/suspense/birdbox.jpeg",
         "pdf":"",
         "nota": 6.7,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     3: {
         "id":13,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Codigo da Vinci",
+        "resumo":"O Código Da Vinci é um thriller que segue a jornada de um simbologista e uma criptógrafa na busca por respostas sobre um segredo religioso envolvendo a linhagem de Jesus Cristo e o Santo Graal, desvendando conspirações e mistérios históricos.",
+        "linkimg":"main/livros/suspense/codigodavinci.jpeg",
         "pdf":"",
         "nota": 2.1,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     4: {
         "id":14,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"E Não Sobrou Nenhum",
+        "resumo": "E Não Sobrou Nenhum é um romance policial de Agatha Christie que segue dez estranhos convidados para uma ilha remota, onde começam a morrer misteriosamente, revelando segredos e culpas do passado durante a investigação sobre quem é o assassino.",
+        "linkimg":"main/livros/suspense/enaosobrounenhum.jpeg",
         "pdf":"",
         "nota": 8.8,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     5: {
         "id":15,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Jantar Secreto",
+        "resumo":"Jantar Secreto de Raphael Montes é um thriller que explora as reviravoltas sinistras na vida de quatro amigos que promovem jantares secretos, revelando segredos obscuros e crimes.",
+        "linkimg":"main/livros/suspense/jantarsecreto.jpg",
         "pdf":"",
         "nota": 5.2,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     6: {
         "id":16,
@@ -157,48 +142,43 @@ suspense = {
         "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
         "linkimg":"main/livros/suspense/garotaexemplar.jpg",
         "pdf":"","nota": 9.4,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     7: {
         "id":17,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Manual de Assassino para Boas Garotas",
+        "resumo":"Manual de Assassino para Boas Garotas é um livro de humor negro de Holly Jackson que narra as desventuras de Esther, uma jovem que se envolve em assassinatos acidentais e segue um manual bizarro para sobreviver.",
+        "linkimg":"main/livros/suspense/manualdeassasinatoparaboasgarotas.jpeg",
         "pdf":"",
         "nota": 4.5,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     8: {
         "id":18,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"O Que Aconteceu com Annie",
+        "resumo":"O Que Aconteceu com Annie é um thriller de Lisa Jewell que explora o desaparecimento de uma adolescente e as revelações perturbadoras que surgem quando sua família começa a investigar seu paradeiro.",
+        "linkimg":"main/livros/suspense/oqueaconteceucomannie.jpeg",
         "pdf":"",
         "nota": 7.2,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     9: {
         "id":19,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Suicidas",
+        "resumo":"Suicidas é um romance de Raphael Montes que acompanha a investigação de um misterioso surto de suicídios na cidade de Contagem, revelando segredos obscuros e uma trama perturbadora.",
+        "linkimg":"main/livros/suspense/suicidas.jpg",
         "pdf":"",
         "nota": 1.9,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
     10: {
         "id":20,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Verity",
+        "resumo":"Verity é um suspense de Colleen Hoover que segue uma escritora que encontra o manuscrito inacabado de uma autora famosa e descobre segredos obscuros que ameaçam sua própria vida.",
+        "linkimg":"main/livros/suspense/verity.jpeg",
         "pdf":"",
         "nota": 6.3,
-        "categoria": 2,
-        "estoque":1
+        "categoria": 2
     },
 }
 romance = {
@@ -209,8 +189,7 @@ romance = {
         "linkimg":"main/livros/romance/eassimqueacaba.jpg",
         "pdf":"",
         "nota": 6.5,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     2: {
         "id":22,
@@ -219,8 +198,7 @@ romance = {
         "linkimg":"main/livros/romance/arazaodoamor.jpg",
         "pdf":"",
         "nota": 4.1,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     3: {
         "id":23,
@@ -229,8 +207,7 @@ romance = {
         "linkimg":"main/livros/romance/asmilpartesdomeucoracao.jpg",
         "pdf":"",
         "nota": 7.8,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     4: {
         "id":24,
@@ -239,8 +216,7 @@ romance = {
         "linkimg":"main/livros/romance/avidainvisiveldeaddielarue.jpg",
         "pdf":"",
         "nota": 3.2,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     5: {
         "id":25,
@@ -249,8 +225,7 @@ romance = {
         "linkimg":"main/livros/romance/ahipotesedoamor.jpg",
         "pdf":"",
         "nota": 9.7,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     6: {
         "id":26,
@@ -258,9 +233,7 @@ romance = {
         "resumo":"Louisa é contratada como cuidadora de Will, um homem paralisado, e o livro aborda a transformação de suas vidas enquanto enfrentam desafios e desenvolvem um vínculo profundo.",
         "linkimg":"main/livros/romance/comoeueraantesdevoce.jpg",
         "pdf":"",
-        "nota": 9.9,
-        "categoria": 3,
-        "estoque":1
+        "nota": 9.9
     },
     7: {
         "id":27,
@@ -269,8 +242,7 @@ romance = {
         "linkimg":"main/livros/romance/daisyjonesandthesix.jpg",
         "pdf":"",
         "nota": 8.2,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     8: {
         "id":28,
@@ -279,8 +251,7 @@ romance = {
         "linkimg":"main/livros/romance/depoisdevoce.jpg",
         "pdf":"",
         "nota": 2.9,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     9: {
         "id":29,
@@ -289,8 +260,7 @@ romance = {
         "linkimg":"main/livros/romance/eassimquecomeca.jpg",
         "pdf":"",
         "nota": 7.1,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
     10: {
         "id":30,
@@ -299,8 +269,7 @@ romance = {
         "linkimg":"main/livros/romance/umlugarbemlongedaqui.jpg",
         "pdf":"",
         "nota": 4.8,
-        "categoria": 3,
-        "estoque":1
+        "categoria": 3
     },
 }
 biografias = {
@@ -311,8 +280,7 @@ biografias = {
         "linkimg":"main/livros/biografias/amarcadavitoria.jpeg",
         "pdf":"",
         "nota": 10,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     2: {
         "id":32,
@@ -321,8 +289,7 @@ biografias = {
         "linkimg":"main/livros/biografias/annefrank.jpeg",
         "pdf":"",
         "nota": 6.4,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     3: {
         "id":33,
@@ -331,8 +298,7 @@ biografias = {
         "linkimg":"main/livros/biografias/elonmusk.jpeg",
         "pdf":"",
         "nota": 2.3,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     4: {
         "id":34,
@@ -341,8 +307,7 @@ biografias = {
         "linkimg":"main/livros/biografias/diana.jpeg",
         "pdf":"",
         "nota": 8.7,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     5: {
         "id":35,
@@ -351,8 +316,7 @@ biografias = {
         "linkimg":"main/livros/biografias/eusoumalala.jpeg",
         "pdf":"",
         "nota": 3.7,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     6: {
         "id":36,
@@ -361,8 +325,7 @@ biografias = {
         "linkimg":"main/livros/biografias/leonardodavinci.jpeg",
         "pdf":"",
         "nota": 9.0,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     7: {
         "id":37,
@@ -371,8 +334,7 @@ biografias = {
         "linkimg":"main/livros/biografias/michelleobama.jpeg",
         "pdf":"",
         "nota": 1.8,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     8: {
         "id":38,
@@ -381,8 +343,7 @@ biografias = {
         "linkimg":"main/livros/biografias/principeharry.jpeg",
         "pdf":"",
         "nota": 7.5,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     9: {
         "id":39,
@@ -391,8 +352,7 @@ biografias = {
         "linkimg":"main/livros/biografias/ritalee.jpeg",
         "pdf":"",
         "nota": 5.3,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
     10: {
         "id":40,
@@ -401,80 +361,72 @@ biografias = {
         "linkimg":"main/livros/biografias/stevejobs.jpeg",
         "pdf":"",
         "nota": 4.0,
-        "categoria": 4,
-        "estoque":1
+        "categoria": 4
     },
 }
 terror = {
     1: {
         "id":41,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Ao Cair da Noite",
+        "resumo":"Ao Cair da Noite é um romance gótico de Shirley Jackson que narra a história de um casal que se muda para uma mansão isolada, onde eventos sinistros desencadeiam um suspense psicológico assustador.",
+        "linkimg":"main/livros/terror/aocairdanoite.jpg",
         "pdf":"",
         "nota": 5.9,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     2: {
         "id":42,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Belas Adormecidas",
+        "resumo":"Belas Adormecidas é um romance de Stephen King e Owen King que explora um mundo onde as mulheres entram em sono profundo, desencadeando caos e desafios para os homens.",
+        "linkimg":"main/livros/terror/belasadormecidas.webp",
         "pdf":"",
         "nota": 3.0,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     3: {
         "id":43,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Carrie",
+        "resumo":"Carrie é um romance de terror de Stephen King que conta a história de uma jovem com poderes telecinéticos que enfrenta o bullying e desencadeia uma tragédia sangrenta em sua cidade natal.",
+        "linkimg":"main/livros/terror/carrie.jpg",
         "pdf":"",
         "nota": 8.4,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     4: {
         "id":44,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Contos de Fadas",
+        "resumo":"Contos de Fadas é uma coletânea de histórias clássicas que transporta os leitores para mundos mágicos cheios de personagens e eventos fantásticos, ensinando lições morais e entretendo gerações.",
+        "linkimg":"main/livros/terror/contodefadas.jpg",
         "pdf":"",
         "nota": 6.9,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     5: {
         "id":45,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Frankenstein",
+        "resumo":"Frankenstein de Mary Shelley é um romance gótico que aborda a criação de um ser monstruoso por um cientista, explorando temas de ambição, alienação e responsabilidade, enquanto o monstro busca aceitação e vingança.",
+        "linkimg":"main/livros/terror/frankstain.jpg",
         "pdf":"",
         "nota": 2.7,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     6: {
         "id":46,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Misery",
+        "resumo":"Misery de Stephen King é um suspense psicológico que narra o pesadelo de um autor sequestrado por uma fã obsessiva que o força a escrever para ela, revelando uma relação doentia e a luta pela sobrevivência.",
+        "linkimg":"main/livros/terror/misery.webp",
         "pdf":"",
         "nota": 7.6,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     7: {
         "id":47,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"Morella",
+        "resumo":"Morella é um conto de Edgar Allan Poe que explora a obsessão e a busca por imortalidade, onde uma mãe moribunda se funde com sua filha recém-nascida de forma macabra e sobrenatural.",
+        "linkimg":"main/livros/terror/morella.jpg",
         "pdf":"",
         "nota": 4.3,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     8: {
         "id":48,
@@ -482,28 +434,25 @@ terror = {
         "resumo":"Narra o confronto de um grupo de crianças com uma entidade maligna que assume diversas formas, incluindo o terrível palhaço Pennywise. Medo, amizade e coragem se entrelaçam nesta história aterrorizante.",
         "linkimg":"main/livros/terror/itacoisa.jpg",
         "pdf":"","nota": 9.3,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     9: {
         "id":49,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"O Exorcista",
+        "resumo":"O Exorcista de William Peter Blatty é um thriller de terror que segue a luta de um padre para salvar uma menina possuída pelo demônio, explorando temas de fé e possessão sobrenatural.",
+        "linkimg":"main/livros/terror/oexorcista.jpg",
         "pdf":"",
         "nota": 3.5,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
     10: {
         "id":50,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
+        "nome":"O Retrato de Dorian Gray",
+        "resumo":"O Retrato de Dorian Gray de Oscar Wilde é um romance que explora a corrupção moral de um jovem ao trocar sua juventude eterna por seus pecados, enquanto seu retrato envelhece em seu lugar.",
+        "linkimg":"main/livros/terror/oretratodedoriangray.jpg",
         "pdf":"",
         "nota": 6.1,
-        "categoria": 5,
-        "estoque":1
+        "categoria": 5
     },
 }
 ficcao = {
@@ -514,8 +463,7 @@ ficcao = {
         "linkimg":"main/livros/fantasia/alice.jpg",
         "pdf":"",
         "nota": 9.6,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     2: {
         "id":52,
@@ -524,8 +472,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 4.7,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     3: {
         "id":53,
@@ -534,8 +481,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.0,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     4: {
         "id":54,
@@ -544,8 +490,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 8.6,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     5: {
         "id":55,
@@ -554,8 +499,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.8,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     6: {
         "id":56,
@@ -564,8 +508,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.9,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     7: {
         "id":57,
@@ -574,8 +517,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.6,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     8: {
         "id":58,
@@ -584,8 +526,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 5.1,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     9: {
         "id":59,
@@ -594,8 +535,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.6,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
     10: {
         "id":60,
@@ -604,8 +544,7 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.7,
-        "categoria": 6,
-        "estoque":1
+        "categoria": 6
     },
 }
 
