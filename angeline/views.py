@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from .dicionarios import acao, suspense, romance, biografias, terror, ficcao, dicionarios
+from .dicionarios import dicionarios
+import unicodedata
 
 # Create your views here.
 
@@ -17,15 +18,39 @@ def melhores(dicionarios):
     return notas_maximas
 
 
-def pesquisar_livros(request):
-    query = request.GET.get('meuCampoDeTexto', '').strip().lower()
+def remover_acentos(texto):
+    # Passo 1: Transformar o texto em minúsculas
+    texto = texto.lower()
     
+    # Passo 2: Remover espaços em branco
+    texto_sem_espacos = ""
+    for caracter in texto:
+        if caracter != " ":
+            texto_sem_espacos += caracter
+
+    # Passo 3: Remover acentos
+    texto_sem_acentos = ""
+    for caracter in texto_sem_espacos:
+        caracter_sem_acento = unicodedata.normalize('NFD', caracter).encode('ascii', 'ignore').decode('utf-8')
+        texto_sem_acentos += caracter_sem_acento
+
+    return texto_sem_acentos
+
+def pesquisar_livros(request):
+    query = request.GET.get('meuCampoDeTexto', '').strip()
+    
+    # Aplicar as transformações na string query
+    query = remover_acentos(query)
+
     resultados = {}
 
     for categoria, dicionario in dicionarios.items():
         livros_correspondentes = {}
         for chave, valor in dicionario.items():
-            if query in valor["nome"].lower():
+            # Aplicar as transformações na string valor["nome"]
+            nome_livro = remover_acentos(valor["nome"])
+            
+            if query in nome_livro.lower():
                 livros_correspondentes[chave] = valor
 
         if livros_correspondentes:
@@ -35,7 +60,6 @@ def pesquisar_livros(request):
         "resultados": resultados,
     }
     return render(request, 'angeline/resultados_pesquisa.html', context)
-
 
 def helloworld(request):
     meio = len(dicionarios) // 2
