@@ -12,7 +12,15 @@
         <p>Autor: Nome do Autor</p>
         <p>Ano de Publicação: 20XX</p>
         <p>Sinopse: {{ livro.resumo }}</p>
-        <button>Alugar</button>
+        <form method="post" id="100" action="{% url 'angeline:alugar_livro' livro.id %}">
+            {% csrf_token %}
+            <button type="submit">Alugar</button>
+        </form>
     </div>
+</section>
+<section>
+    {% if mensagem %}
+        <p>{{ mensagem }}</p>
+    {% endif %}
 </section>
 {% endblock %}

@@ -78,14 +78,23 @@ def helloworld(request):
     return render(request, 'angeline/index.html', context)
 
 
-def books(request, book_id):
+def alugar_livro(request, book_id):
+    mensagem = ""
+
     livros_encontrados = {}
     
-    for categoria, lista_livros in dicionarios.items():
-        for id, livro in lista_livros.items():
-            if livro["id"] == book_id:
-                livro["categoria"] = categoria
-                livros_encontrados[categoria] = livro
+    for categoria, dicionario in dicionarios.items():
+        for chave, valor in dicionario.items():
+            if valor["id"] == book_id:
+                if request.method == 'POST':
+                    if valor["estoque"] >= 1:
+                        valor["estoque"] -= 1
+                        mensagem = f"Livro '{valor['nome']}' alugado com sucesso! Novo estoque: {valor['estoque']}"
+                    else:
+                        mensagem = f"Não é possível alugar o livro '{valor['nome']}'"
+                valor["categoria"] = categoria
+                livros_encontrados[categoria] = valor
+                break  # Saia do loop interno, pois o livro foi encontrado
 
     # Inicialize as variáveis fora do loop e remova o segundo loop
     categoriaf = None
@@ -98,20 +107,7 @@ def books(request, book_id):
     context = {
         'livro': livrof,
         'categoria': categoriaf,
+        'mensagem': mensagem,
     }
-    print(livros_encontrados)
-    
+
     return render(request, 'angeline/books.html', context)
-
-
-def categ_livros(request, categ_id):
-    for categoria, dicionario in dicionarios.items():
-        for chave, valor in dicionario.items():
-            pass
-
-
-
-
-
-
-    return render(request, 'angeline/categlivros.html')

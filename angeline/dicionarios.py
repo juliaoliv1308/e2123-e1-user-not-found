@@ -6,7 +6,8 @@ cursos = {
         "linkimg":"main/livros/cursos/python.jpg",
         "pdf":"main/livros/cursos/python.pdf",
         "nota": 10,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     2: {
         "id":2,
@@ -15,7 +16,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.8,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     3: {
         "id":3,
@@ -24,7 +26,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.2,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     4: {
         "id":4,
@@ -33,7 +36,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 9.1,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     5: {
         "id":5,
@@ -42,7 +46,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.5,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     6: {
         "id":6,
@@ -51,7 +56,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 8.3,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     7: {
         "id":7,
@@ -60,7 +66,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 5.7,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     8: {
         "id":8,
@@ -69,7 +76,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 4.2,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     9: {
         "id":9,
@@ -78,7 +86,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.9,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
     10: {
         "id":10,
@@ -87,7 +96,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 1.6,
-        "categoria": 1
+        "categoria": 1,
+        "estoque":1
         },
 }
 suspense = {
@@ -98,7 +108,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.4,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     2: {
         "id":12,
@@ -107,7 +118,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.7,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     3: {
         "id":13,
@@ -116,7 +128,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.1,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     4: {
         "id":14,
@@ -125,7 +138,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 8.8,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     5: {
         "id":15,
@@ -134,7 +148,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 5.2,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     6: {
         "id":16,
@@ -142,7 +157,8 @@ suspense = {
         "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
         "linkimg":"main/livros/suspense/garotaexemplar.jpg",
         "pdf":"","nota": 9.4,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     7: {
         "id":17,
@@ -151,7 +167,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 4.5,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     8: {
         "id":18,
@@ -160,7 +177,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.2,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     9: {
         "id":19,
@@ -169,7 +187,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 1.9,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
     10: {
         "id":20,
@@ -178,7 +197,8 @@ suspense = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.3,
-        "categoria": 2
+        "categoria": 2,
+        "estoque":1
     },
 }
 romance = {
@@ -189,7 +209,8 @@ romance = {
         "linkimg":"main/livros/romance/eassimqueacaba.jpg",
         "pdf":"",
         "nota": 6.5,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     2: {
         "id":22,
@@ -198,7 +219,8 @@ romance = {
         "linkimg":"main/livros/romance/arazaodoamor.jpg",
         "pdf":"",
         "nota": 4.1,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     3: {
         "id":23,
@@ -207,7 +229,8 @@ romance = {
         "linkimg":"main/livros/romance/asmilpartesdomeucoracao.jpg",
         "pdf":"",
         "nota": 7.8,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     4: {
         "id":24,
@@ -216,7 +239,8 @@ romance = {
         "linkimg":"main/livros/romance/avidainvisiveldeaddielarue.jpg",
         "pdf":"",
         "nota": 3.2,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     5: {
         "id":25,
@@ -225,7 +249,8 @@ romance = {
         "linkimg":"main/livros/romance/ahipotesedoamor.jpg",
         "pdf":"",
         "nota": 9.7,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     6: {
         "id":26,
@@ -233,7 +258,9 @@ romance = {
         "resumo":"Louisa é contratada como cuidadora de Will, um homem paralisado, e o livro aborda a transformação de suas vidas enquanto enfrentam desafios e desenvolvem um vínculo profundo.",
         "linkimg":"main/livros/romance/comoeueraantesdevoce.jpg",
         "pdf":"",
-        "nota": 9.9
+        "nota": 9.9,
+        "categoria": 3,
+        "estoque":1
     },
     7: {
         "id":27,
@@ -242,7 +269,8 @@ romance = {
         "linkimg":"main/livros/romance/daisyjonesandthesix.jpg",
         "pdf":"",
         "nota": 8.2,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     8: {
         "id":28,
@@ -251,7 +279,8 @@ romance = {
         "linkimg":"main/livros/romance/depoisdevoce.jpg",
         "pdf":"",
         "nota": 2.9,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     9: {
         "id":29,
@@ -260,7 +289,8 @@ romance = {
         "linkimg":"main/livros/romance/eassimquecomeca.jpg",
         "pdf":"",
         "nota": 7.1,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
     10: {
         "id":30,
@@ -269,7 +299,8 @@ romance = {
         "linkimg":"main/livros/romance/umlugarbemlongedaqui.jpg",
         "pdf":"",
         "nota": 4.8,
-        "categoria": 3
+        "categoria": 3,
+        "estoque":1
     },
 }
 biografias = {
@@ -280,7 +311,8 @@ biografias = {
         "linkimg":"main/livros/biografias/amarcadavitoria.jpeg",
         "pdf":"",
         "nota": 10,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     2: {
         "id":32,
@@ -289,7 +321,8 @@ biografias = {
         "linkimg":"main/livros/biografias/annefrank.jpeg",
         "pdf":"",
         "nota": 6.4,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     3: {
         "id":33,
@@ -298,7 +331,8 @@ biografias = {
         "linkimg":"main/livros/biografias/elonmusk.jpeg",
         "pdf":"",
         "nota": 2.3,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     4: {
         "id":34,
@@ -307,7 +341,8 @@ biografias = {
         "linkimg":"main/livros/biografias/diana.jpeg",
         "pdf":"",
         "nota": 8.7,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     5: {
         "id":35,
@@ -316,7 +351,8 @@ biografias = {
         "linkimg":"main/livros/biografias/eusoumalala.jpeg",
         "pdf":"",
         "nota": 3.7,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     6: {
         "id":36,
@@ -325,7 +361,8 @@ biografias = {
         "linkimg":"main/livros/biografias/leonardodavinci.jpeg",
         "pdf":"",
         "nota": 9.0,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     7: {
         "id":37,
@@ -334,7 +371,8 @@ biografias = {
         "linkimg":"main/livros/biografias/michelleobama.jpeg",
         "pdf":"",
         "nota": 1.8,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     8: {
         "id":38,
@@ -343,7 +381,8 @@ biografias = {
         "linkimg":"main/livros/biografias/principeharry.jpeg",
         "pdf":"",
         "nota": 7.5,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     9: {
         "id":39,
@@ -352,7 +391,8 @@ biografias = {
         "linkimg":"main/livros/biografias/ritalee.jpeg",
         "pdf":"",
         "nota": 5.3,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
     10: {
         "id":40,
@@ -361,7 +401,8 @@ biografias = {
         "linkimg":"main/livros/biografias/stevejobs.jpeg",
         "pdf":"",
         "nota": 4.0,
-        "categoria": 4
+        "categoria": 4,
+        "estoque":1
     },
 }
 terror = {
@@ -372,7 +413,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 5.9,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     2: {
         "id":42,
@@ -381,7 +423,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.0,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     3: {
         "id":43,
@@ -390,7 +433,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 8.4,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     4: {
         "id":44,
@@ -399,7 +443,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.9,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     5: {
         "id":45,
@@ -408,7 +453,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.7,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     6: {
         "id":46,
@@ -417,7 +463,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.6,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     7: {
         "id":47,
@@ -426,7 +473,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 4.3,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     8: {
         "id":48,
@@ -434,7 +482,8 @@ terror = {
         "resumo":"Narra o confronto de um grupo de crianças com uma entidade maligna que assume diversas formas, incluindo o terrível palhaço Pennywise. Medo, amizade e coragem se entrelaçam nesta história aterrorizante.",
         "linkimg":"main/livros/terror/itacoisa.jpg",
         "pdf":"","nota": 9.3,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     9: {
         "id":49,
@@ -443,7 +492,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.5,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
     10: {
         "id":50,
@@ -452,7 +502,8 @@ terror = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.1,
-        "categoria": 5
+        "categoria": 5,
+        "estoque":1
     },
 }
 ficcao = {
@@ -463,7 +514,8 @@ ficcao = {
         "linkimg":"main/livros/fantasia/alice.jpg",
         "pdf":"",
         "nota": 9.6,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     2: {
         "id":52,
@@ -472,7 +524,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 4.7,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     3: {
         "id":53,
@@ -481,7 +534,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.0,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     4: {
         "id":54,
@@ -490,7 +544,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 8.6,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     5: {
         "id":55,
@@ -499,7 +554,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 6.8,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     6: {
         "id":56,
@@ -508,7 +564,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.9,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     7: {
         "id":57,
@@ -517,7 +574,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.6,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     8: {
         "id":58,
@@ -526,7 +584,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 5.1,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     9: {
         "id":59,
@@ -535,7 +594,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 2.6,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
     10: {
         "id":60,
@@ -544,7 +604,8 @@ ficcao = {
         "linkimg":"",
         "pdf":"",
         "nota": 7.7,
-        "categoria": 6
+        "categoria": 6,
+        "estoque":1
     },
 }
 

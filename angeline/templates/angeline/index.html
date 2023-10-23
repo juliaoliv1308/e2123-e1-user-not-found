@@ -6,7 +6,7 @@
 <section>
     <div class="divsecmain">
     {% for categ, info in novo_dic1.items %}
-        <a class="divmain" href="{% url 'angeline:books' info.id %}">
+        <a class="divmain" href="{% url 'angeline:alugar_livro' info.id %}">
             <img class="bookimg" src="{% static info.linkimg %}" />
             <div class="txtmain">
                 <h1 class="txth1">{{ info.nome }}</h1>
@@ -21,7 +21,7 @@
     </div>
     <div class="divsecmain">
     {% for categ, info in novo_dic2.items %}
-        <a class="divmain" href="{% url 'angeline:books' info.id %}">
+        <a class="divmain" href="{% url 'angeline:alugar_livro' info.id %}">
             <img class="bookimg" src="{% static info.linkimg %}" />
             <div class="txtmain">
                 <h1 class="txth1">{{ info.nome }}</h1>
