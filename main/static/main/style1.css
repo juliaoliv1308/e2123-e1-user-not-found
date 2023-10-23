@@ -28,7 +28,7 @@ header {
     justify-content: center;
     background-color: #698A73;
 } .navheader {
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
 } .listaheader {
@@ -79,7 +79,33 @@ header {
     cursor:pointer;
     transform: scale(1.05);
 }
+#header3 {
+    background: #e7e7e7;
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0px;
+    height: calc(100vh - 100px);
+    z-index: 1000;
 
+}
+
+#menu {
+    list-style: none;  
+}
+
+#menu li {
+    margin: 2rem 0;
+}
+ 
+#menu a {
+    text-decoration: none;
+}
+
+#header3.active {
+    display: none;
+}
 /* Main */
 main {
     flex: 1;
