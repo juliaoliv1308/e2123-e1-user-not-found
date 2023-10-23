@@ -115,3 +115,8 @@ def categ_livros(request, categ_id):
 
 
     return render(request, 'angeline/categlivros.html')
+
+# views.py
+from django.http import HttpResponse
+from . import dicionarios  # Importa o dicionário de livros do arquivo dicionarios.py
+

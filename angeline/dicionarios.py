@@ -6,7 +6,7 @@ cursos = {
         "linkimg":"main/livros/cursos/python.jpg",
         "pdf":"main/livros/cursos/python.pdf",
         "nota": 10,
-        "categoria": 1
+        "categoria": 1,
         },
     2: {
         "id":2,
@@ -15,8 +15,8 @@ cursos = {
         "linkimg":"",
         "pdf":"",
         "nota": 3.8,
-        "categoria": 1
-        },
+        "categoria": 1,
+                },
     3: {
         "id":3,
         "nome":"",
