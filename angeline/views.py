@@ -36,14 +36,14 @@ def remover_acentos(texto):
 
     return texto_sem_acentos
 
-def pesquisar_livros(request):
+def pesquisar_livros(request, categoria_id=None):
     query = request.GET.get('meuCampoDeTexto', '').strip()
     
     # Aplicar as transformações na string query
     query = remover_acentos(query)
-
+   
     resultados = {}
-
+    
     for categoria, dicionario in dicionarios.items():
         livros_correspondentes = {}
         for chave, valor in dicionario.items():
@@ -51,7 +51,11 @@ def pesquisar_livros(request):
             if valor["nome"]:
                 nome_livro = remover_acentos(valor["nome"])
                 if query in nome_livro.lower():
-                    livros_correspondentes[chave] = valor
+                    if categoria_id:
+                        if categoria_id in valor['categoria']:
+                            livros_correspondentes[chave] = valor 
+                    else:
+                        livros_correspondentes[chave] = valor
 
         if livros_correspondentes:
             resultados[categoria] = livros_correspondentes
@@ -105,18 +109,29 @@ def books(request, book_id):
 
 
 def categ_livros(request, categ_id):
-    for categoria, dicionario in dicionarios.items():
-        for chave, valor in dicionario.items():
-            pass
+    # Converte o categ_id para inteiro, pois pode vir como string da URL
+    categ_id = int(categ_id)
+    
+    # Obtém a categoria correta do dicionário com base no categ_id
+    categoria = None
+    for cat, cat_id in dicionarios.items():
+        if cat_id == categ_id:
+            categoria = cat
+            break
+    
+    # Se a categoria não for encontrada, redireciona para uma página de erro ou retorna uma resposta de erro
+    if categoria is None:
+        # Página de erro ou resposta de erro
+        pass
+    
+    # Obtém o dicionário de livros da categoria
+    livros = dicionarios.get(categoria, {})
+    
+    # Você pode passar 'livros' para o contexto do template para exibição
+    contexto = {
+        'categoria': categoria,
+        'livros': livros,
+    }
 
-
-
-
-
-
-    return render(request, 'angeline/categlivros.html')
-
-# views.py
-from django.http import HttpResponse
-from . import dicionarios  # Importa o dicionário de livros do arquivo dicionarios.py
+    return render(request, 'angeline/categlivros.html', contexto)
 
