@@ -1,11 +1,12 @@
-acao = {
+cursos = {
     1: {
         "id":1,
-        "nome":"",
-        "resumo":"",
-        "linkimg":"",
-        "pdf":"",
-        "nota": 7.4
+        "nome":"Python",
+        "resumo":"Python",
+        "linkimg":"main/livros/cursos/python.jpg",
+        "pdf":"main/livros/cursos/python.pdf",
+        "nota": 10,
+        "categoria": "cursos"
         },
     2: {
         "id":2,
@@ -13,7 +14,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 3.8
+        "nota": 3.8,
+        "categoria": "cursos"
         },
     3: {
         "id":3,
@@ -21,7 +23,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 6.2
+        "nota": 6.2,
+        "categoria": "cursos"
         },
     4: {
         "id":4,
@@ -29,7 +32,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 9.1
+        "nota": 9.1,
+        "categoria": "cursos"
         },
     5: {
         "id":5,
@@ -37,7 +41,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 2.5
+        "nota": 2.5,
+        "categoria": "cursos"
         },
     6: {
         "id":6,
@@ -45,7 +50,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 8.3
+        "nota": 8.3,
+        "categoria": "cursos"
         },
     7: {
         "id":7,
@@ -53,7 +59,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 5.7
+        "nota": 5.7,
+        "categoria": "cursos"
         },
     8: {
         "id":8,
@@ -61,7 +68,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 4.2
+        "nota": 4.2,
+        "categoria": "cursos"
         },
     9: {
         "id":9,
@@ -69,7 +77,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 7.9
+        "nota": 7.9,
+        "categoria": "cursos"
         },
     10: {
         "id":10,
@@ -77,7 +86,8 @@ acao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 1.6
+        "nota": 1.6,
+        "categoria": "cursos"
         },
 }
 suspense = {
@@ -87,8 +97,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 3.4
-    
+        "nota": 3.4,
+        "categoria": "suspense"
     },
     2: {
         "id":12,
@@ -96,7 +106,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 6.7
+        "nota": 6.7,
+        "categoria": "suspense"
     },
     3: {
         "id":13,
@@ -104,7 +115,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 2.1
+        "nota": 2.1,
+        "categoria": "suspense"
     },
     4: {
         "id":14,
@@ -112,7 +124,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 8.8
+        "nota": 8.8,
+        "categoria": "suspense"
     },
     5: {
         "id":15,
@@ -120,14 +133,16 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 5.2
+        "nota": 5.2,
+        "categoria": "suspense"
     },
     6: {
         "id":16,
         "nome":"Garota Exemplar",
         "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
         "linkimg":"main/livros/suspense/garotaexemplar.jpg",
-        "pdf":"","nota": 9.4
+        "pdf":"","nota": 9.4,
+        "categoria": "suspense"
     },
     7: {
         "id":17,
@@ -135,7 +150,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 4.5
+        "nota": 4.5,
+        "categoria": "suspense"
     },
     8: {
         "id":18,
@@ -143,7 +159,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 7.2
+        "nota": 7.2,
+        "categoria": "suspense"
     },
     9: {
         "id":19,
@@ -151,7 +168,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 1.9
+        "nota": 1.9,
+        "categoria": "suspense"
     },
     10: {
         "id":20,
@@ -159,7 +177,8 @@ suspense = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 6.3
+        "nota": 6.3,
+        "categoria": "suspense"
     },
 }
 romance = {
@@ -169,7 +188,8 @@ romance = {
         "resumo":"É Assim que Acaba de Colleen Hoover acompanha Lily Bloom enquanto ela busca superar traumas e encontrar cura emocional através do apoio de um amor do passado.",
         "linkimg":"main/livros/romance/eassimqueacaba.jpg",
         "pdf":"",
-        "nota": 6.5
+        "nota": 6.5,
+        "categoria": "romance"
     },
     2: {
         "id":22,
@@ -177,7 +197,8 @@ romance = {
         "resumo":"A Razão do Amor de Kristin Hannah explora a complicada relação entre duas irmãs enquanto enfrentam desafios pessoais e descobrem o verdadeiro significado do amor familiar, destacando temas de perdão e aceitação.",
         "linkimg":"main/livros/romance/arazaodoamor.jpg",
         "pdf":"",
-        "nota": 4.1
+        "nota": 4.1,
+        "categoria": "romance"
     },
     3: {
         "id":23,
@@ -185,7 +206,8 @@ romance = {
         "resumo":"As Mil Partes do Meu Coração de Colleen Hoover narra a vida de Merit Voss, uma jovem em uma família disfuncional, explorando temas de amor, perdão e aceitação em meio a segredos familiares sombrios.",
         "linkimg":"main/livros/romance/asmilpartesdomeucoracao.jpg",
         "pdf":"",
-        "nota": 7.8
+        "nota": 7.8,
+        "categoria": "romance"
     },
     4: {
         "id":24,
@@ -193,7 +215,8 @@ romance = {
         "resumo":"A Vida Invisível de Addie Larue de V.E. Schwab segue a vida de Addie, amaldiçoada a ser esquecida por todos, enquanto busca significado e amor ao longo dos séculos.",
         "linkimg":"main/livros/romance/avidainvisiveldeaddielarue.jpg",
         "pdf":"",
-        "nota": 3.2
+        "nota": 3.2,
+        "categoria": "romance"
     },
     5: {
         "id":25,
@@ -201,7 +224,8 @@ romance = {
         "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
         "linkimg":"main/livros/romance/ahipotesedoamor.jpg",
         "pdf":"",
-        "nota": 9.7
+        "nota": 9.7,
+        "categoria": "romance"
     },
     6: {
         "id":26,
@@ -217,7 +241,8 @@ romance = {
         "resumo":"Daisy Jones & The Six de Taylor Jenkins Reid é uma narrativa fictícia sobre uma banda de rock dos anos 1970, contada por meio de entrevistas orais, explorando sua jornada, relacionamentos e criação de músicas icônicas.",
         "linkimg":"main/livros/romance/daisyjonesandthesix.jpg",
         "pdf":"",
-        "nota": 8.2
+        "nota": 8.2,
+        "categoria": "romance"
     },
     8: {
         "id":28,
@@ -225,7 +250,8 @@ romance = {
         "resumo":"Depois de Você de Jojo Moyes é a continuação de 'Como Eu Era Antes de Você'. O livro acompanha a vida de Louisa Clark após a morte de Will, explorando seu processo de luto e como ela tenta seguir em frente.",
         "linkimg":"main/livros/romance/depoisdevoce.jpg",
         "pdf":"",
-        "nota": 2.9
+        "nota": 2.9,
+        "categoria": "romance"
     },
     9: {
         "id":29,
@@ -233,7 +259,8 @@ romance = {
         "resumo":"É Assim que Começa é um livro de Colleen Hoover que narra a história de Kate e da relação com seu novo vizinho, Jesse, após um encontro inusitado. A trama explora segredos, amizade e o início de um amor improvável.",
         "linkimg":"main/livros/romance/eassimquecomeca.jpg",
         "pdf":"",
-        "nota": 7.1
+        "nota": 7.1,
+        "categoria": "romance"
     },
     10: {
         "id":30,
@@ -241,7 +268,8 @@ romance = {
         "resumo":"Um Lugar Bem Longe Daqui de Delia Owens narra a vida solitária de Kya Clark no pântano da Carolina do Norte, incluindo a descoberta de um corpo e uma investigação que desvenda segredos do passado.",
         "linkimg":"main/livros/romance/umlugarbemlongedaqui.jpg",
         "pdf":"",
-        "nota": 4.8
+        "nota": 4.8,
+        "categoria": "romance"
     },
 }
 biografias = {
@@ -251,7 +279,8 @@ biografias = {
         "resumo":"O livro destaca a perseverança e a paixão de Knight pelo negócio e como ele construiu uma marca icônica.",
         "linkimg":"main/livros/biografias/amarcadavitoria.jpeg",
         "pdf":"",
-        "nota": 10
+        "nota": 10,
+        "categoria": "biografias"
     },
     2: {
         "id":32,
@@ -259,7 +288,8 @@ biografias = {
         "resumo":"O Diário de Anne Frank é o relato comovente de Anne Frank, uma adolescente judia durante a Segunda Guerra Mundial, que descreve sua vida escondida dos nazistas em Amsterdã, oferecendo um testemunho impactante do Holocausto.",
         "linkimg":"main/livros/biografias/annefrank.jpeg",
         "pdf":"",
-        "nota": 6.4
+        "nota": 6.4,
+        "categoria": "biografias"
     },
     3: {
         "id":33,
@@ -267,7 +297,8 @@ biografias = {
         "resumo":"Elon Musk Tesla, SpaceX e a Busca por um Futuro Fantástico narra a vida e a busca empreendedora de revolucionar indústrias em espacial, de veículos elétricos e solar, destacando seus desafios e sucessos notáveis.",
         "linkimg":"main/livros/biografias/elonmusk.jpeg",
         "pdf":"",
-        "nota": 2.3
+        "nota": 2.3,
+        "categoria": "biografias"
     },
     4: {
         "id":34,
@@ -275,7 +306,8 @@ biografias = {
         "resumo":"O livro Diana é uma biografia da Princesa Diana, abordando sua vida, casamento com o Príncipe Charles, suas ações filantrópicas e sua trágica morte em 1997, proporcionando uma visão mais profunda da icônica figura real.",
         "linkimg":"main/livros/biografias/diana.jpeg",
         "pdf":"",
-        "nota": 8.7
+        "nota": 8.7,
+        "categoria": "biografias"
     },
     5: {
         "id":35,
@@ -283,7 +315,8 @@ biografias = {
         "resumo":"Eu Sou Malala narra a corajosa jornada de Malala Yousafzai, uma ativista paquistanesa que sobreviveu a um ataque do Talibã e se tornou uma defensora dos direitos das mulheres e da educação.",
         "linkimg":"main/livros/biografias/eusoumalala.jpeg",
         "pdf":"",
-        "nota": 3.7
+        "nota": 3.7,
+        "categoria": "biografias"
     },
     6: {
         "id":36,
@@ -291,7 +324,8 @@ biografias = {
         "resumo":"Leonardo da Vinci de Walter Isaacson é uma biografia que revela a vida e múltiplos talentos do gênio renascentista, explorando suas realizações como pintor, inventor e cientista, além de sua complexa personalidade.",
         "linkimg":"main/livros/biografias/leonardodavinci.jpeg",
         "pdf":"",
-        "nota": 9.0
+        "nota": 9.0,
+        "categoria": "biografias"
     },
     7: {
         "id":37,
@@ -299,7 +333,8 @@ biografias = {
         "resumo":"Minha História de Michelle Obama que explora sua jornada desde a infância em Chicago até os anos na Casa Branca, abordando temas de identidade, igualdade e suas experiências como mulher e mãe em uma posição de influência.",
         "linkimg":"main/livros/biografias/michelleobama.jpeg",
         "pdf":"",
-        "nota": 1.8
+        "nota": 1.8,
+        "categoria": "biografias"
     },
     8: {
         "id":38,
@@ -307,7 +342,8 @@ biografias = {
         "resumo":"O que sobra começa com sua infância após a morte de sua mãe, a Princesa Diana, e aborda sua vida, decisão de se afastar da realeza britânica e relacionamento com Meghan Markle.",
         "linkimg":"main/livros/biografias/principeharry.jpeg",
         "pdf":"",
-        "nota": 7.5
+        "nota": 7.5,
+        "categoria": "biografias"
     },
     9: {
         "id":39,
@@ -315,7 +351,8 @@ biografias = {
         ,"resumo":"Rita Lee é uma autobiografia que parece que você está dentro do livro, é transparente e muito divertido de se ler, ri muito em várias partes e chorei também em algumas.",
         "linkimg":"main/livros/biografias/ritalee.jpeg",
         "pdf":"",
-        "nota": 5.3
+        "nota": 5.3,
+        "categoria": "biografias"
     },
     10: {
         "id":40,
@@ -323,7 +360,8 @@ biografias = {
         "resumo":"Steve Jobs é uma biografia, revelando a vida e visão do cofundador da Apple, destacando sua paixão pela inovação, seu perfeccionismo e seu impacto duradouro na tecnologia e no design.",
         "linkimg":"main/livros/biografias/stevejobs.jpeg",
         "pdf":"",
-        "nota": 4.0
+        "nota": 4.0,
+        "categoria": "biografias"
     },
 }
 terror = {
@@ -333,7 +371,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 5.9
+        "nota": 5.9,
+        "categoria": "terror"
     },
     2: {
         "id":42,
@@ -341,7 +380,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 3.0
+        "nota": 3.0,
+        "categoria": "terror"
     },
     3: {
         "id":43,
@@ -349,7 +389,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 8.4
+        "nota": 8.4,
+        "categoria": "terror"
     },
     4: {
         "id":44,
@@ -357,7 +398,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 6.9
+        "nota": 6.9,
+        "categoria": "terror"
     },
     5: {
         "id":45,
@@ -365,7 +407,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 2.7
+        "nota": 2.7,
+        "categoria": "terror"
     },
     6: {
         "id":46,
@@ -373,7 +416,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 7.6
+        "nota": 7.6,
+        "categoria": "terror"
     },
     7: {
         "id":47,
@@ -381,14 +425,16 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 4.3
+        "nota": 4.3,
+        "categoria": "terror"
     },
     8: {
         "id":48,
         "nome":"IT - A Coisa",
         "resumo":"Narra o confronto de um grupo de crianças com uma entidade maligna que assume diversas formas, incluindo o terrível palhaço Pennywise. Medo, amizade e coragem se entrelaçam nesta história aterrorizante.",
         "linkimg":"main/livros/terror/itacoisa.jpg",
-        "pdf":"","nota": 9.3
+        "pdf":"","nota": 9.3,
+        "categoria": "terror"
     },
     9: {
         "id":49,
@@ -396,7 +442,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 3.5
+        "nota": 3.5,
+        "categoria": "terror"
     },
     10: {
         "id":50,
@@ -404,7 +451,8 @@ terror = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 6.1
+        "nota": 6.1,
+        "categoria": "terror"
     },
 }
 ficcao = {
@@ -414,7 +462,8 @@ ficcao = {
         "resumo":"Alice cai em um mundo surreal e encontra personagens estranhos, como o Chapeleiro Maluco e a Rainha de Copas, explorando o absurdo e o ilógico",
         "linkimg":"main/livros/fantasia/alice.jpg",
         "pdf":"",
-        "nota": 9.6
+        "nota": 9.6,
+        "categoria": "ficcao"
     },
     2: {
         "id":52,
@@ -422,7 +471,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 4.7
+        "nota": 4.7,
+        "categoria": "ficcao"
     },
     3: {
         "id":53,
@@ -430,7 +480,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 2.0
+        "nota": 2.0,
+        "categoria": "ficcao"
     },
     4: {
         "id":54,
@@ -438,7 +489,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 8.6
+        "nota": 8.6,
+        "categoria": "ficcao"
     },
     5: {
         "id":55,
@@ -446,7 +498,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 6.8
+        "nota": 6.8,
+        "categoria": "ficcao"
     },
     6: {
         "id":56,
@@ -454,7 +507,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 3.9
+        "nota": 3.9,
+        "categoria": "ficcao"
     },
     7: {
         "id":57,
@@ -462,7 +516,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 7.6
+        "nota": 7.6,
+        "categoria": "ficcao"
     },
     8: {
         "id":58,
@@ -470,7 +525,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 5.1
+        "nota": 5.1,
+        "categoria": "ficcao"
     },
     9: {
         "id":59,
@@ -478,7 +534,8 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 2.6
+        "nota": 2.6,
+        "categoria": "ficcao"
     },
     10: {
         "id":60,
@@ -486,13 +543,14 @@ ficcao = {
         "resumo":"",
         "linkimg":"",
         "pdf":"",
-        "nota": 7.7
+        "nota": 7.7,
+        "categoria": "ficcao"
     },
 }
 
 
 dicionarios = {
-    "Ação": acao,
+    "Cursos": cursos,
     "Suspense": suspense,
     "Romance": romance,
     "Biografias": biografias,

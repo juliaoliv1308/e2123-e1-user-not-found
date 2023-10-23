@@ -9,9 +9,11 @@
                 <ul>
                     {% for chave, livro in livros.items %}
                         <li>
-                            <img class="imgpesquisa" src="{% static livro.linkimg %}" alt="Capa do Livro">
-                            <strong>{{ livro.nome }}</strong>
-                            <p>Nota: {{ livro.nota }}</p>
+                            <a href="{% url 'angeline:books' livro.id %}">
+                                <img class="imgpesquisa" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                                <strong>{{ livro.nome }}</strong>
+                                <p>Nota: {{ livro.nota }}</p>
+                            </a>
                         </li>
                     {% endfor %}
                 </ul>

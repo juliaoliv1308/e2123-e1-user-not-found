@@ -154,6 +154,9 @@ main {
     border-radius: 2px;
 } li {
     list-style: none;
+} a {
+    text-decoration: none;
+    color: black;
 }
 
 

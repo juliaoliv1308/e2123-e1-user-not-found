@@ -48,10 +48,10 @@ def pesquisar_livros(request):
         livros_correspondentes = {}
         for chave, valor in dicionario.items():
             # Aplicar as transformações na string valor["nome"]
-            nome_livro = remover_acentos(valor["nome"])
-            
-            if query in nome_livro.lower():
-                livros_correspondentes[chave] = valor
+            if valor["nome"]:
+                nome_livro = remover_acentos(valor["nome"])
+                if query in nome_livro.lower():
+                    livros_correspondentes[chave] = valor
 
         if livros_correspondentes:
             resultados[categoria] = livros_correspondentes
