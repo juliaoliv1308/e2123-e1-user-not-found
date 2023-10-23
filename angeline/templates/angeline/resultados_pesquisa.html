@@ -1,8 +1,7 @@
 {% extends "main/base.html" %}
-
+{% load static %}
 {% block content %}
-    <h1>Resultados da Pesquisa</h1>
-
+<section class="pesquisa">
     {% if resultados %}
         <ul>
             {% for categoria, livros in resultados.items %}
@@ -10,8 +9,9 @@
                 <ul>
                     {% for chave, livro in livros.items %}
                         <li>
-                            <strong>{{ livro.nome }}</strong> - Nota: {{ livro.nota }}
-                            <p>{{ livro.resumo }}</p>
+                            <img class="imgpesquisa" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                            <strong>{{ livro.nome }}</strong>
+                            <p>Nota: {{ livro.nota }}</p>
                         </li>
                     {% endfor %}
                 </ul>
@@ -20,4 +20,5 @@
     {% else %}
         <p>Nenhum resultado encontrado.</p>
     {% endif %}
+</section>
 {% endblock %}

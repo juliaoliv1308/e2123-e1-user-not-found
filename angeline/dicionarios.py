@@ -497,5 +497,5 @@ dicionarios = {
     "Romance": romance,
     "Biografias": biografias,
     "Terror": terror,
-    "Ficção Científica": ficcao,
+    "Ficção": ficcao,
 }
