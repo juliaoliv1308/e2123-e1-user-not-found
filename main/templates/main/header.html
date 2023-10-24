@@ -9,7 +9,10 @@
     </div>
     <div></div>
     <div>
-        <input class="campoDePesquisa" type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        <form method="post" action="{% url 'angeline:pesquisar_livros' %}">
+            {% csrf_token %}
+            <input class="campoDePesquisa" type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        </form>
     </div>
 </section>
 
@@ -19,11 +22,3 @@
     {% endblock %}
 </section>
 
-<section class="header3">
-    <span id="hamburger"></span>
-    <ul id="menu" onclick="clickmenu()">
-        <li><a href="/">Romance</a></li>
-        <li><a href="/">Poesia</a></li>
-        <li><a href="/">Terror</a></li>
-    </ul>
-</section>

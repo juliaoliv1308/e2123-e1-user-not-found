@@ -1,23 +1,20 @@
 <nav class="navheader">
-    <ul class="listaheader">
-<<<<<<< HEAD
-        <li><a href="{% url 'angeline:categlivros' info.id %}">Cursos</a></li>
-        <li><a href="{% url 'angeline:categlivros' info.id %}">Suspense</a></li>
-        <li><a href="{% url 'angeline:categlivros' info.id %}">Romance</a></li>
-        <li><a href="{% url 'angeline:categlivros' info.id %}">Biografia</a></li>
-        <li><a href="{% url 'angeline:categlivros' info.id %}">Terror</a></li>
-        <li><a href="{% url 'angeline:categlivros' info.id %}">Ficção</a></li>
-    </ul>
-</nav> 
-=======
-        <li id="botao" class="active">Menu</li>
-        <li id="botao">Quem somos</li>
-        <li id="botao">Políticas de Privacidade</li>
-        <li id="botao">Créditos</li>
-        <li id="botao">Biblioteca Digital</li>
-        <li id="botao">Login</li>
+    <ul class="navbar">
+        <li class="dropdown">
+            <a>Categorias</a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Suspense</a></li>
+                <li><a href="#">Romance</a></li>
+                <li><a href="#">Biografias</a></li>
+                <li><a href="#">Terror</a></li>
+                <li><a href="#">Ficção</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="#">Políticas</a></li>
+        <li><a href="#">Créditos</a></li>
+        <li><a href="#">Biblioteca</a></li>
+        <li><a href="#">Login</a></li>
     </ul>
 </nav>
-<form method="get" action="{% url 'angeline:pesquisar_livros' %}">
-</form>
->>>>>>> dev
