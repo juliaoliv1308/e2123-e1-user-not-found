@@ -1,9 +1,10 @@
 {% load static %}
+
 <section class="header1">
     <div class="titulo">
         <a class="inicial" href="{% url 'angeline:helloworld' %}">
-            <img class="logoimg" src="{% static 'main/OIG.jpg' %}"></img>
-            <h1>Bookstoire</h1>
+            <img class="logoimg" src="{% static 'main/OIG.jpg' %}" alt="Logo da Bookstoire">
+            <h1>Booksto<strong class="itali">I</strong>re</h1>
         </a>
     </div>
     <div></div>
@@ -13,8 +14,10 @@
         </form>
     </div>
 </section>
+
 <section class="header2">
     {% block navbar %}
-            {% include 'main/nav.html' %}
+        {% include 'main/nav.html' %}
     {% endblock %}
 </section>
+

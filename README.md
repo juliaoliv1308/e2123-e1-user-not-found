@@ -125,3 +125,31 @@ Projeto em andamento
 
 ## O que está nos impedindo?
 Não encontramos nada que esteje nos impedindo 
+
+--------------------------------------------------------------------------------------
+
+# Daily 19-10-2023  
+ 
+Projeto em andamento  
+
+## Integrantes da equipe:
+- Victor Gabrial
+- Angelo
+- Ivanir
+- Daniele
+- Julia
+
+## O que fizemos ontem?
+* Ivanir terminou de fazer os dicionarios dos livros
+* Daniele continuou a criação do menu hamburguer
+* Angelo fez o botão de alugar funcional na pagina dos livros
+* Victor iniciou a def da pagina de categorias
+
+
+## O que faremos hoje?
+* Ivanir vai terminar 
+
+## O que está nos impedindo?
+Não encontramos nada que esteje nos impedindo 
+--------------------------------------------------------------------------------------
+
