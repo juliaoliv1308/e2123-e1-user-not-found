@@ -16,7 +16,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/ativesuamente.jpg",
         "pdf":"main/livros/autoajuda/ativesuamente.pdf",
         "nota": 3.8,
-        "sub_categoria":"desenvolvimento pessoal:",
+        "sub_categoria":"desenvolvimento pessoal",
         "estoque": 1
         },
     3: {
@@ -86,7 +86,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/opoderdohabito.jpg",
         "pdf":"main/livros/autoajuda/opoderdohabito.pdf",
         "nota": 7.9,
-        "sub_categoria":"desenvolvimento pessoal:",
+        "sub_categoria":"desenvolvimento pessoal",
         "estoque": 1
         },
     10: {
