@@ -239,12 +239,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 90%;
+    width: 100%;
     background-color: white;
     border-radius: 5px;
     padding: 10px;
 } .subcategname {
-    width: 90%;
+    width: 95%;
     display: flex;
 } .books {
     display: flex;
