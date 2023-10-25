@@ -4,12 +4,14 @@
     <div class="titulo">
         <a class="inicial" href="{% url 'angeline:helloworld' %}">
             <img class="logoimg" src="{% static 'main/OIG.jpg' %}" alt="Logo da Bookstoire">
-            <h1>Bookstoire</h1>
+            <h1>Booksto<strong class="itali">I</strong>re</h1>
         </a>
     </div>
     <div></div>
     <div>
-        <input class="campoDePesquisa" type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        <form method="get" action="{% url 'angeline:pesquisar_livros' %}">
+            <input type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        </form>
     </div>
 </section>
 
@@ -19,11 +21,3 @@
     {% endblock %}
 </section>
 
-<section class="header3">
-    <span id="hamburger"></span>
-    <ul id="menu" onclick="clickmenu()">
-        <li><a href="/">Romance</a></li>
-        <li><a href="/">Poesia</a></li>
-        <li><a href="/">Terror</a></li>
-    </ul>
-</section>
