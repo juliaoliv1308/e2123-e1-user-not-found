@@ -71,10 +71,22 @@ def helloworld(request):
         
     notas_maximas1 = melhores(dict1)
     notas_maximas2 = melhores(dict2)
+    
+    resultados = {}
+    
+    for categoria, dicionario in dicionarios.items():
+        livros_correspondentes = {}
+        for chave, valor in dicionario.items():
+            if valor["nome"]:
+                livros_correspondentes[chave] = valor
+    
+        if livros_correspondentes:
+            resultados[categoria] = livros_correspondentes
 
     context = {
         "novo_dic1": notas_maximas1,
         "novo_dic2": notas_maximas2,
+        "resultados": resultados,
     }
     return render(request, 'angeline/index.html', context)
 
