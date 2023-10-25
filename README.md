@@ -16,79 +16,21 @@ Para iniciar o projeto utilize esse comando no terminal:
 Acesso em http://localhost:8000/.
 
 
+# Documentação
+Para iniciarmos a documentação do projeto, baixamos a extensão do MkDocs, que é um projeto para criação de documentação para projetos. No nosso projeto, a extensão foi usada em python, mas pode ser usada em projetos de documentação de diferentes linguagens. 
 
-aaaa
-# atualizações dev-julia
-Começamos o projeto criando o repositório no github junto com os arquivos .gitignore, LICENSE e o README.md. Criamos a branch-dev do projeto e as devs de cada integrante, para fazerem suas partes do projeto. Convidamos o professor para o nosso repositório, onde o próprio usará a main. Em seguida, iniciamos a descrição do projeto no arquivo README.md. Criamos a pasta do app main e o app da angeline. Hoje, fatemos o arquivo base.html no main e linka-lo entre o base.html e o index.html da angeline. E na views.py, faremos o hello word e iniciaremos o css.
+ ## Requisitos
+ - Licença BSD
+ - Formato Markdown
 
-ivaaaaaaa
+ ## Execução
+ Para iniciar a instalação da extenção, utilize o comando:
+ ```pip install MkDocs```
 
-ivaaa
-# atualização 
-No OktoberTech, você encontrará:
-
-Workshops e Palestras: Durante a OktoberTech, teremos uma programação repleta de workshops e palestras com profissionais renomados do mercado de tecnologia, destacando o potencial dos talentos. Serão abordados temas como tendências tech dos próximos 10 anos, desenvolvimento de aplicativos, liderança eficaz e muito mais, tudo com foco no desenvolvimento e valorização dos talentos do setor. Prepare-se para adquirir conhecimentos valiosos e se atualizar sobre as últimas tendências do setor, impulsionando seus próprios talentos no mundo da tecnologia.
-Teste02 
-Teste03
-
---------------------------------------------------------------------------------------  
+ [[Introdução à BookstoIre disponível]](BookstoIre_docs/docs/introdução.md)  
+ [[Manual de instalação disponível]](BookstoIre_docs/docs/instalação.md)  
+ [[Modos de utilização da BookstoIre disponíveis]](BookstoIre_docs/docs/modo_de_uso.md)
 
 
 
 
-
-
-# Daily 12/10/2023 
-
-
-
-# Daily 11-10-2023  
- 
-Projeto em andamento  
-
-## Integrantes da equipe:
-- Victor Gabrial
-- Angelo
-- Ivanir
-- Daniele
-- Julia
---------------------------------------------------------------------------------------
-
-## O que fizemos ontem?
-* Praticamos o git checkout.
-* Praticamos o git merge.
-* Vimos o passo a passo que preciamos uzar para codar nas nossas dev's e usar o merge para a dev principal.
-
-## O que faremos hoje?
-Hoje, faremos um template grafico de como sera a parte visual do site para termos uma noção melhor de como sera o site final e suas funcionalidades.
-
-## O que está nos impedindo?
-Não encontramos nada que esteje nos impedindo 
-
-
-# Daily 12/10/2023 
-
-
-
-# Daily 16-10-2023  
- 
-Projeto em andamento  
-
-## Integrantes da equipe:
-- Victor Gabrial
-- Angelo
-- Ivanir
-- Daniele
-- Julia
---------------------------------------------------------------------------------------
-
-## O que fizemos ontem?
-* Foi feito front-end com html representativo.
-* Foi feito o git merge.
-
-
-## O que faremos hoje?
-Hoje, faremos a correção do front-end e começaremos a lógica.
-
-## O que está nos impedindo?
-Não encontramos nada que esteje nos impedindo 
