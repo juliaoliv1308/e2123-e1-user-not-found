@@ -231,7 +231,7 @@ romance = {
         "nota": 6.5,
         "sub_categoria":"",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     2: {
         "id":22,
@@ -242,7 +242,7 @@ romance = {
         "nota": 4.1,
         "sub_categoria":"",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     3: {
         "id":23,
@@ -253,7 +253,7 @@ romance = {
         "nota": 7.8,
         "sub_categoria":"",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     4: {
         "id":24,
@@ -264,7 +264,7 @@ romance = {
         "nota": 3.2,
         "sub_categoria":"",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     5: {
         "id":25,
@@ -275,7 +275,7 @@ romance = {
         "nota": 9.7,
         "sub_categoria":"",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     6: {
         "id":26,
@@ -286,7 +286,7 @@ romance = {
         "nota": 9.9,
         "sub_categoria":"",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     7: {
         "id":27,
@@ -297,7 +297,7 @@ romance = {
         "nota": 8.2,
         "sub_categoria":"infantil",
         "estoque": 1,
-        "categoria":1,
+        "categoria":3,
     },
     8: {
         "id":28,
