@@ -130,8 +130,8 @@ def categlivro(request, categid):
 
     for categoria, dicionario in dicionarios.items():
         livros_correspondentes = {}
-        if categid == categoria:
-            for chave, valor in dicionario.items():
+        for chave, valor in dicionario.items():
+            if categid == valor["categoria"]:
                 livros_correspondentes[chave] = valor
 
         if livros_correspondentes:
