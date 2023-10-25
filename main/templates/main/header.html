@@ -9,9 +9,8 @@
     </div>
     <div></div>
     <div>
-        <form method="post" action="{% url 'angeline:pesquisar_livros' %}">
-            {% csrf_token %}
-            <input class="campoDePesquisa" type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        <form method="get" action="{% url 'angeline:pesquisar_livros' %}">
+            <input type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
         </form>
     </div>
 </section>
