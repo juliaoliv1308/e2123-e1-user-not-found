@@ -16,7 +16,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/ativesuamente.jpg",
         "pdf":"main/livros/autoajuda/ativesuamente.pdf",
         "nota": 3.8,
-        "sub_categoria":"p:",
+        "sub_categoria":"desenvolvimento pessoal:",
         "estoque": 1
         },
     3: {
