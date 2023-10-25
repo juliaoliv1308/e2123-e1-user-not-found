@@ -1,13 +1,11 @@
 # e2123-e1-user-not-found
-Teste02
-Teste03
+
 
 # Biblioteca
-
 É um softare para gerenciamento de uma biblioteca onde podemos alugar livros digitais, e ficam marcados como alugado ou disponivel.
 
 ## Requisitos
-- django v.3.8
+- django v.3.8  
 Versão do Python: 3.10.8
 
 
@@ -94,62 +92,3 @@ Hoje, faremos a correção do front-end e começaremos a lógica.
 
 ## O que está nos impedindo?
 Não encontramos nada que esteje nos impedindo 
-
-
-
-
-
-# Daily 19-10-2023  
- 
-Projeto em andamento  
-
-## Integrantes da equipe:
-- Victor Gabrial
-- Angelo
-- Ivanir
-- Daniele
-- Julia
---------------------------------------------------------------------------------------
-
-## O que fizemos ontem?
-* Elaboração do menu hamburguinho do nav
-* Criação da pagina dos livros
-* Criação da pagina do resultado de pesquisas
-* Criação do sistema de pesquisa
-* Foi adicionado novos livros no projeto
-* Foi iniciado o preenchimento dos dicionarios
-
-
-## O que faremos hoje?
-* Ivanir vai terminar 
-
-## O que está nos impedindo?
-Não encontramos nada que esteje nos impedindo 
-
---------------------------------------------------------------------------------------
-
-# Daily 19-10-2023  
- 
-Projeto em andamento  
-
-## Integrantes da equipe:
-- Victor Gabrial
-- Angelo
-- Ivanir
-- Daniele
-- Julia
-
-## O que fizemos ontem?
-* Ivanir terminou de fazer os dicionarios dos livros
-* Daniele continuou a criação do menu hamburguer
-* Angelo fez o botão de alugar funcional na pagina dos livros
-* Victor iniciou a def da pagina de categorias
-
-
-## O que faremos hoje?
-* Ivanir vai terminar 
-
-## O que está nos impedindo?
-Não encontramos nada que esteje nos impedindo 
---------------------------------------------------------------------------------------
-
