@@ -7,7 +7,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/aquietudeeachave.pdf",
         "nota": 10,
         "sub_categoria":"desenvolvimento pessoal",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     2: {
         "id":2,
@@ -17,7 +18,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/ativesuamente.pdf",
         "nota": 3.8,
         "sub_categoria":"desenvolvimento pessoal:",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     3: {
         "id":3,
@@ -27,7 +29,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/comofazeramigos.pdf",
         "nota": 6.2,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     4: {
         "id":4,
@@ -37,7 +40,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/coragemdenaoagradar.pdf",
         "nota": 9.1,
         "sub_categoria":"desenvolvimento pessoal",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     5: {
         "id":5,
@@ -47,7 +51,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/limitezero.pdf",
         "nota": 2.5,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     6: {
         "id":6,
@@ -57,7 +62,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/mindset.pdf",
         "nota": 8.3,
         "sub_categoria":"desenvolvimento pessoal",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     7: {
         "id":7,
@@ -67,7 +73,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/oegoeseuinimigo.pdf",
         "nota": 5.7,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     8: {
         "id":8,
@@ -77,7 +84,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/omilagredamanha.pdf",
         "nota": 4.2,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     9: {
         "id":9,
@@ -87,7 +95,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/opoderdohabito.pdf",
         "nota": 7.9,
         "sub_categoria":"desenvolvimento pessoal:",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
     10: {
         "id":10,
@@ -97,7 +106,8 @@ autoajuda = {
         "pdf":"main/livros/autoajuda/procratinacao.pdf",
         "nota": 1.6,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
         },
 }
 suspense = {
@@ -109,7 +119,8 @@ suspense = {
         "pdf":"",
         "nota": 3.4,
         "sub_categoria":"suspense adulto",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     2: {
         "id":12,
@@ -119,7 +130,8 @@ suspense = {
         "pdf":"",
         "nota": 6.7,
         "sub_categoria":"suspense adulto",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     3: {
         "id":13,
@@ -129,7 +141,8 @@ suspense = {
         "pdf":"",
         "nota": 2.1,
         "sub_categoria":"suspense adulto",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     4: {
         "id":14,
@@ -139,7 +152,8 @@ suspense = {
         "pdf":"",
         "nota": 8.8,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     5: {
         "id":15,
@@ -149,7 +163,8 @@ suspense = {
         "pdf":"",
         "nota": 5.2,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     6: {
         "id":16,
@@ -158,7 +173,8 @@ suspense = {
         "linkimg":"main/livros/suspense/garotaexemplar.jpg",
         "pdf":"","nota": 9.4,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     7: {
         "id":17,
@@ -168,7 +184,8 @@ suspense = {
         "pdf":"",
         "nota": 4.5,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     8: {
         "id":18,
@@ -178,7 +195,8 @@ suspense = {
         "pdf":"",
         "nota": 7.2,
         "sub_categoria":"suspense adulto",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     9: {
         "id":19,
@@ -188,7 +206,8 @@ suspense = {
         "pdf":"",
         "nota": 1.9,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
     10: {
         "id":20,
@@ -198,7 +217,8 @@ suspense = {
         "pdf":"",
         "nota": 6.3,
         "sub_categoria":"suspense adulto",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":2,
     },
 }
 romance = {
@@ -210,7 +230,8 @@ romance = {
         "pdf":"",
         "nota": 6.5,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     2: {
         "id":22,
@@ -220,7 +241,8 @@ romance = {
         "pdf":"",
         "nota": 4.1,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     3: {
         "id":23,
@@ -230,7 +252,8 @@ romance = {
         "pdf":"",
         "nota": 7.8,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     4: {
         "id":24,
@@ -240,7 +263,8 @@ romance = {
         "pdf":"",
         "nota": 3.2,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     5: {
         "id":25,
@@ -250,7 +274,8 @@ romance = {
         "pdf":"",
         "nota": 9.7,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     6: {
         "id":26,
@@ -260,7 +285,8 @@ romance = {
         "pdf":"",
         "nota": 9.9,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     7: {
         "id":27,
@@ -270,7 +296,8 @@ romance = {
         "pdf":"",
         "nota": 8.2,
         "sub_categoria":"infantil",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":1,
     },
     8: {
         "id":28,
@@ -280,7 +307,8 @@ romance = {
         "pdf":"",
         "nota": 2.9,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":3,
     },
     9: {
         "id":29,
@@ -290,7 +318,8 @@ romance = {
         "pdf":"",
         "nota": 7.1,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":3,
     },
     10: {
         "id":30,
@@ -300,7 +329,8 @@ romance = {
         "pdf":"",
         "nota": 4.8,
         "sub_categoria":"infantil",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":3,
     },
 }
 biografias = {
@@ -312,7 +342,8 @@ biografias = {
         "pdf":"",
         "nota": 10,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     2: {
         "id":32,
@@ -322,7 +353,8 @@ biografias = {
         "pdf":"",
         "nota": 6.4,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     3: {
         "id":33,
@@ -332,7 +364,8 @@ biografias = {
         "pdf":"",
         "nota": 2.3,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     4: {
         "id":34,
@@ -342,7 +375,8 @@ biografias = {
         "pdf":"",
         "nota": 8.7,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     5: {
         "id":35,
@@ -352,7 +386,8 @@ biografias = {
         "pdf":"",
         "nota": 3.7,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     6: {
         "id":36,
@@ -362,7 +397,8 @@ biografias = {
         "pdf":"",
         "nota": 9.0,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     7: {
         "id":37,
@@ -372,7 +408,8 @@ biografias = {
         "pdf":"",
         "nota": 1.8,
        "sub_categoria":"infantil",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     8: {
         "id":38,
@@ -382,7 +419,8 @@ biografias = {
         "pdf":"",
         "nota": 7.5,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     9: {
         "id":39,
@@ -392,7 +430,8 @@ biografias = {
         "pdf":"",
         "nota": 5.3,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
     10: {
         "id":40,
@@ -402,7 +441,8 @@ biografias = {
         "pdf":"",
         "nota": 4.0,
        "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":4,
     },
 }
 terror = {
@@ -414,7 +454,8 @@ terror = {
         "pdf":"",
         "nota": 5.9,
         "sub_categoria":"terror",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     2: {
         "id":42,
@@ -424,7 +465,8 @@ terror = {
         "pdf":"",
         "nota": 3.0,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     3: {
         "id":43,
@@ -434,7 +476,8 @@ terror = {
         "pdf":"",
         "nota": 8.4,
         "sub_categoria":"terror",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     4: {
         "id":44,
@@ -444,7 +487,8 @@ terror = {
         "pdf":"",
         "nota": 6.9,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     5: {
         "id":45,
@@ -454,7 +498,8 @@ terror = {
         "pdf":"",
         "nota": 2.7,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     6: {
         "id":46,
@@ -464,7 +509,8 @@ terror = {
         "pdf":"",
         "nota": 7.6,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     7: {
         "id":47,
@@ -474,7 +520,8 @@ terror = {
         "pdf":"",
         "nota": 4.3,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     8: {
         "id":48,
@@ -483,7 +530,8 @@ terror = {
         "linkimg":"main/livros/terror/itacoisa.jpg",
         "pdf":"","nota": 9.3,
         "sub_categoria":"terror",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     9: {
         "id":49,
@@ -493,7 +541,8 @@ terror = {
         "pdf":"",
         "nota": 3.5,
         "sub_categoria":"terror",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
     10: {
         "id":50,
@@ -503,7 +552,8 @@ terror = {
         "pdf":"",
         "nota": 6.1,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":5,
     },
 }
 ficcao = {
@@ -515,7 +565,8 @@ ficcao = {
         "pdf":"",
         "nota": 9.6,
         "sub_categoria":"infantil",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     2: {
         "id":52,
@@ -525,7 +576,8 @@ ficcao = {
         "pdf":"",
         "nota": 4.7,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     3: {
         "id":53,
@@ -535,7 +587,8 @@ ficcao = {
         "pdf":"",
         "nota": 2.0,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     4: {
         "id":54,
@@ -545,7 +598,8 @@ ficcao = {
         "pdf":"",
         "nota": 8.6,
         "sub_categoria":"terror",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     5: {
         "id":55,
@@ -555,7 +609,8 @@ ficcao = {
         "pdf":"",
         "nota": 6.8,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     6: {
         "id":56,
@@ -565,7 +620,8 @@ ficcao = {
         "pdf":"",
         "nota": 3.9,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     7: {
         "id":57,
@@ -575,7 +631,8 @@ ficcao = {
         "pdf":"",
         "nota": 7.6,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     8: {
         "id":58,
@@ -585,7 +642,8 @@ ficcao = {
         "pdf":"",
         "nota": 5.1,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     9: {
         "id":59,
@@ -595,7 +653,8 @@ ficcao = {
         "pdf":"",
         "nota": 2.6,
         "sub_categoria":"",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
     10: {
         "id":60,
@@ -605,7 +664,8 @@ ficcao = {
         "pdf":"",
         "nota": 7.7,
         "sub_categoria":"infantil",
-        "estoque": 1
+        "estoque": 1,
+        "categoria":6,
     },
 }
 
