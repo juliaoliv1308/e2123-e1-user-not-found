@@ -1,4 +1,4 @@
-cursos = {
+autoajuda = {
     1: {
         "id":1,
         "nome":"A quietude é a chave",
@@ -611,7 +611,7 @@ ficcao = {
 
 
 dicionarios = {
-    "Cursos": cursos,
+    "Auto Ajuda": autoajuda,
     "Suspense": suspense,
     "Romance": romance,
     "Biografias": biografias,
