@@ -2,17 +2,24 @@
 {% load static %}
 
 {% block content %}
-<section>
-    <h1>Detalhes do Livro</h1>
-    <img class="book-cover" src="{% static livro.linkimg %}" alt="Capa do Livro">
-</section>
-<section>
-    <div class="book-details">
-        <h2>{{ livro.nome }}</h2>
-        <p>Autor: Nome do Autor</p>
-        <p>Ano de Publicação: 20XX</p>
-        <p>Sinopse: {{ livro.resumo }}</p>
-        <button>Alugar</button>
-    </div>
+<section class="books">
+    <section class="books1">
+        <img class="book-cover" src="{% static livro.linkimg %}" alt="Capa do Livro">
+    </section>
+    <section class="books2">
+        <div class="book-details">
+            <h2>{{ livro.nome }}</h2>
+            <p>Estoque: {{ livro.estoque }}</p>
+            <form method="post" id="100" action="{% url 'angeline:alugar_livro' livro.id %}">
+                {% csrf_token %}
+                <button class="button-alugar" type="submit">Alugar</button>
+            </form>
+            <form method="post" id="100" action="{% url 'angeline:alugar_livro' livro.id %}">
+                {% csrf_token %}
+                <button class="button-devolver" type="submit">Devolver</button>
+            </form>
+            <p>Sinopse: {{ livro.resumo }}</p>
+        </div>
+    </section>
 </section>
 {% endblock %}
