@@ -124,3 +124,20 @@ def alugar_livro(request, book_id):
     }
 
     return render(request, 'angeline/books.html', context)
+
+def categlivro(request, categid):
+    resultados = {}
+
+    for categoria, dicionario in dicionarios.items():
+        livros_correspondentes = {}
+        if categid == categoria:
+            for chave, valor in dicionario.items():
+                livros_correspondentes[chave] = valor
+
+        if livros_correspondentes:
+                resultados[categoria] = livros_correspondentes
+    
+    context = {
+        "resultados": resultados,
+    }
+    return render(request, 'angeline/categlivros.html', context)
