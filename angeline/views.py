@@ -36,6 +36,7 @@ def remover_acentos(texto):
 
     return texto_sem_acentos
 
+
 def pesquisar_livros(request):
     query = request.GET.get('meuCampoDeTexto', '').strip()
     
