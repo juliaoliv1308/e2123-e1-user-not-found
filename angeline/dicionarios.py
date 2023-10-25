@@ -6,7 +6,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/aquietudeeachave.jpg",
         "pdf":"main/livros/autoajuda/aquietudeeachave.pdf",
         "nota": 10,
-        "categoria": 1,
+        "sub_categoria":"desenvolvimento pessoal",
         "estoque": 1
         },
     2: {
@@ -16,7 +16,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/ativesuamente.jpg",
         "pdf":"main/livros/autoajuda/ativesuamente.pdf",
         "nota": 3.8,
-        "categoria": 1,
+        "sub_categoria":"desenvolvimento pessoal:",
         "estoque": 1
         },
     3: {
@@ -26,17 +26,17 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/comofazeramigos.jpg",
         "pdf":"main/livros/autoajuda/comofazeramigos.pdf",
         "nota": 6.2,
-        "categoria": 1,
+        "sub_categoria":"",
         "estoque": 1
         },
     4: {
         "id":4,
         "nome":"Coragem de não agradar",
-        "resumo":"Aborda o desenvolvimento pessoal, mostrando como superar expectativas alheias e encontrar a verdadeira felicidade.",
+        "resumo":"Aborda o p, mostrando como superar expectativas alheias e encontrar a verdadeira felicidade.",
         "linkimg":"main/livros/autoajuda/coragemdenaoagradar.jpg",
         "pdf":"main/livros/autoajuda/coragemdenaoagradar.pdf",
         "nota": 9.1,
-        "categoria": 1,
+        "sub_categoria":"desenvolvimento pessoal",
         "estoque": 1
         },
     5: {
@@ -46,7 +46,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/limitezero.jpg",
         "pdf":"main/livros/autoajuda/limitezero.pdf",
         "nota": 2.5,
-        "categoria": 1,
+        "sub_categoria":"",
         "estoque": 1
         },
     6: {
@@ -56,7 +56,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/mindset.jpg",
         "pdf":"main/livros/autoajuda/mindset.pdf",
         "nota": 8.3,
-        "categoria": 1,
+        "sub_categoria":"desenvolvimento pessoal",
         "estoque": 1
         },
     7: {
@@ -66,17 +66,17 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/oegoeseuinimigo.jpg",
         "pdf":"main/livros/autoajuda/oegoeseuinimigo.pdf",
         "nota": 5.7,
-        "categoria": 1,
+        "sub_categoria":"",
         "estoque": 1
         },
     8: {
         "id":8,
-        "nome":"O milagre da manha",
+        "nome":"O milagre da manhã",
         "resumo":"Incentiva a rotina matinal para aumentar a produtividade, melhorar a saúde e alcançar objetivos pessoais.",
         "linkimg":"main/livros/autoajuda/omilagredamanha.jpg",
         "pdf":"main/livros/autoajuda/omilagredamanha.pdf",
         "nota": 4.2,
-        "categoria": 1,
+        "sub_categoria":"",
         "estoque": 1
         },
     9: {
@@ -86,7 +86,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/opoderdohabito.jpg",
         "pdf":"main/livros/autoajuda/opoderdohabito.pdf",
         "nota": 7.9,
-        "categoria": 1,
+        "sub_categoria":"desenvolvimento pessoal:",
         "estoque": 1
         },
     10: {
@@ -96,7 +96,7 @@ autoajuda = {
         "linkimg":"main/livros/autoajuda/procrastinacao.jpg",
         "pdf":"main/livros/autoajuda/procratinacao.pdf",
         "nota": 1.6,
-        "categoria": 1,
+        "sub_categoria":"",
         "estoque": 1
         },
 }
@@ -108,7 +108,7 @@ suspense = {
         "linkimg":"main/livros/suspense/alistadeconvidados.jpeg",
         "pdf":"",
         "nota": 3.4,
-        "categoria": 2,
+        "sub_categoria":"suspense adulto",
         "estoque": 1
     },
     2: {
@@ -118,7 +118,7 @@ suspense = {
         "linkimg":"main/livros/suspense/birdbox.jpeg",
         "pdf":"",
         "nota": 6.7,
-        "categoria": 2,
+        "sub_categoria":"suspense adulto",
         "estoque": 1
     },
     3: {
@@ -128,7 +128,7 @@ suspense = {
         "linkimg":"main/livros/suspense/codigodavinci.jpeg",
         "pdf":"",
         "nota": 2.1,
-        "categoria": 2,
+        "sub_categoria":"suspense adulto",
         "estoque": 1
     },
     4: {
@@ -138,7 +138,7 @@ suspense = {
         "linkimg":"main/livros/suspense/enaosobrounenhum.jpeg",
         "pdf":"",
         "nota": 8.8,
-        "categoria": 2,
+        "sub_categoria":"",
         "estoque": 1
     },
     5: {
@@ -148,7 +148,7 @@ suspense = {
         "linkimg":"main/livros/suspense/jantarsecreto.jpg",
         "pdf":"",
         "nota": 5.2,
-        "categoria": 2,
+        "sub_categoria":"",
         "estoque": 1
     },
     6: {
@@ -157,7 +157,7 @@ suspense = {
         "resumo":"Amy Dunne desaparece, e seu marido, Nick, torna-se o principal suspeito. Um suspense psicológico envolvendo segredos sombrios, traição e reviravoltas chocantes.",
         "linkimg":"main/livros/suspense/garotaexemplar.jpg",
         "pdf":"","nota": 9.4,
-        "categoria": 2,
+        "sub_categoria":"",
         "estoque": 1
     },
     7: {
@@ -167,7 +167,7 @@ suspense = {
         "linkimg":"main/livros/suspense/manualdeassasinatoparaboasgarotas.jpeg",
         "pdf":"",
         "nota": 4.5,
-        "categoria": 2,
+        "sub_categoria":"",
         "estoque": 1
     },
     8: {
@@ -177,7 +177,7 @@ suspense = {
         "linkimg":"main/livros/suspense/oqueaconteceucomannie.jpeg",
         "pdf":"",
         "nota": 7.2,
-        "categoria": 2,
+        "sub_categoria":"suspense adulto",
         "estoque": 1
     },
     9: {
@@ -187,7 +187,7 @@ suspense = {
         "linkimg":"main/livros/suspense/suicidas.jpg",
         "pdf":"",
         "nota": 1.9,
-        "categoria": 2,
+        "sub_categoria":"",
         "estoque": 1
     },
     10: {
@@ -197,7 +197,7 @@ suspense = {
         "linkimg":"main/livros/suspense/verity.jpeg",
         "pdf":"",
         "nota": 6.3,
-        "categoria": 2,
+        "sub_categoria":"suspense adulto",
         "estoque": 1
     },
 }
@@ -209,7 +209,7 @@ romance = {
         "linkimg":"main/livros/romance/eassimqueacaba.jpg",
         "pdf":"",
         "nota": 6.5,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     2: {
@@ -219,7 +219,7 @@ romance = {
         "linkimg":"main/livros/romance/arazaodoamor.jpg",
         "pdf":"",
         "nota": 4.1,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     3: {
@@ -229,7 +229,7 @@ romance = {
         "linkimg":"main/livros/romance/asmilpartesdomeucoracao.jpg",
         "pdf":"",
         "nota": 7.8,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     4: {
@@ -239,7 +239,7 @@ romance = {
         "linkimg":"main/livros/romance/avidainvisiveldeaddielarue.jpg",
         "pdf":"",
         "nota": 3.2,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     5: {
@@ -249,7 +249,7 @@ romance = {
         "linkimg":"main/livros/romance/ahipotesedoamor.jpg",
         "pdf":"",
         "nota": 9.7,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     6: {
@@ -259,7 +259,7 @@ romance = {
         "linkimg":"main/livros/romance/comoeueraantesdevoce.jpg",
         "pdf":"",
         "nota": 9.9,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     7: {
@@ -269,7 +269,7 @@ romance = {
         "linkimg":"main/livros/romance/daisyjonesandthesix.jpg",
         "pdf":"",
         "nota": 8.2,
-        "categoria": 3,
+        "sub_categoria":"infantil",
         "estoque": 1
     },
     8: {
@@ -279,7 +279,7 @@ romance = {
         "linkimg":"main/livros/romance/depoisdevoce.jpg",
         "pdf":"",
         "nota": 2.9,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     9: {
@@ -289,7 +289,7 @@ romance = {
         "linkimg":"main/livros/romance/eassimquecomeca.jpg",
         "pdf":"",
         "nota": 7.1,
-        "categoria": 3,
+        "sub_categoria":"",
         "estoque": 1
     },
     10: {
@@ -299,7 +299,7 @@ romance = {
         "linkimg":"main/livros/romance/umlugarbemlongedaqui.jpg",
         "pdf":"",
         "nota": 4.8,
-        "categoria": 3,
+        "sub_categoria":"infantil",
         "estoque": 1
     },
 }
@@ -311,7 +311,7 @@ biografias = {
         "linkimg":"main/livros/biografias/amarcadavitoria.jpeg",
         "pdf":"",
         "nota": 10,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     2: {
@@ -321,7 +321,7 @@ biografias = {
         "linkimg":"main/livros/biografias/annefrank.jpeg",
         "pdf":"",
         "nota": 6.4,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     3: {
@@ -331,7 +331,7 @@ biografias = {
         "linkimg":"main/livros/biografias/elonmusk.jpeg",
         "pdf":"",
         "nota": 2.3,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     4: {
@@ -341,7 +341,7 @@ biografias = {
         "linkimg":"main/livros/biografias/diana.jpeg",
         "pdf":"",
         "nota": 8.7,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     5: {
@@ -351,7 +351,7 @@ biografias = {
         "linkimg":"main/livros/biografias/eusoumalala.jpeg",
         "pdf":"",
         "nota": 3.7,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     6: {
@@ -361,7 +361,7 @@ biografias = {
         "linkimg":"main/livros/biografias/leonardodavinci.jpeg",
         "pdf":"",
         "nota": 9.0,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     7: {
@@ -371,7 +371,7 @@ biografias = {
         "linkimg":"main/livros/biografias/michelleobama.jpeg",
         "pdf":"",
         "nota": 1.8,
-        "categoria": 4,
+       "sub_categoria":"infantil",
         "estoque": 1
     },
     8: {
@@ -381,7 +381,7 @@ biografias = {
         "linkimg":"main/livros/biografias/principeharry.jpeg",
         "pdf":"",
         "nota": 7.5,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     9: {
@@ -391,7 +391,7 @@ biografias = {
         "linkimg":"main/livros/biografias/ritalee.jpeg",
         "pdf":"",
         "nota": 5.3,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
     10: {
@@ -401,7 +401,7 @@ biografias = {
         "linkimg":"main/livros/biografias/stevejobs.jpeg",
         "pdf":"",
         "nota": 4.0,
-        "categoria": 4,
+       "sub_categoria":"",
         "estoque": 1
     },
 }
@@ -413,7 +413,7 @@ terror = {
         "linkimg":"main/livros/terror/aocairdanoite.jpg",
         "pdf":"",
         "nota": 5.9,
-        "categoria": 5,
+        "sub_categoria":"terror",
         "estoque": 1
     },
     2: {
@@ -423,7 +423,7 @@ terror = {
         "linkimg":"main/livros/terror/belasadormecidas.webp",
         "pdf":"",
         "nota": 3.0,
-        "categoria": 5,
+        "sub_categoria":"",
         "estoque": 1
     },
     3: {
@@ -433,7 +433,7 @@ terror = {
         "linkimg":"main/livros/terror/carrie.jpg",
         "pdf":"",
         "nota": 8.4,
-        "categoria": 5,
+        "sub_categoria":"terror",
         "estoque": 1
     },
     4: {
@@ -443,7 +443,7 @@ terror = {
         "linkimg":"main/livros/terror/contodefadas.jpg",
         "pdf":"",
         "nota": 6.9,
-        "categoria": 5,
+        "sub_categoria":"",
         "estoque": 1
     },
     5: {
@@ -453,7 +453,7 @@ terror = {
         "linkimg":"main/livros/terror/frankstain.jpg",
         "pdf":"",
         "nota": 2.7,
-        "categoria": 5,
+        "sub_categoria":"",
         "estoque": 1
     },
     6: {
@@ -463,7 +463,7 @@ terror = {
         "linkimg":"main/livros/terror/misery.webp",
         "pdf":"",
         "nota": 7.6,
-        "categoria": 5,
+        "sub_categoria":"",
         "estoque": 1
     },
     7: {
@@ -473,7 +473,7 @@ terror = {
         "linkimg":"main/livros/terror/morella.jpg",
         "pdf":"",
         "nota": 4.3,
-        "categoria": 5,
+        "sub_categoria":"",
         "estoque": 1
     },
     8: {
@@ -482,7 +482,7 @@ terror = {
         "resumo":"Narra o confronto de um grupo de crianças com uma entidade maligna que assume diversas formas, incluindo o terrível palhaço Pennywise. Medo, amizade e coragem se entrelaçam nesta história aterrorizante.",
         "linkimg":"main/livros/terror/itacoisa.jpg",
         "pdf":"","nota": 9.3,
-        "categoria": 5,
+        "sub_categoria":"terror",
         "estoque": 1
     },
     9: {
@@ -492,7 +492,7 @@ terror = {
         "linkimg":"main/livros/terror/oexorcista.jpg",
         "pdf":"",
         "nota": 3.5,
-        "categoria": 5,
+        "sub_categoria":"terror",
         "estoque": 1
     },
     10: {
@@ -502,7 +502,7 @@ terror = {
         "linkimg":"main/livros/terror/oretratodedoriangray.jpg",
         "pdf":"",
         "nota": 6.1,
-        "categoria": 5,
+        "sub_categoria":"",
         "estoque": 1
     },
 }
@@ -514,7 +514,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/alice.jpg",
         "pdf":"",
         "nota": 9.6,
-        "categoria": 6,
+        "sub_categoria":"infantil",
         "estoque": 1
     },
     2: {
@@ -524,7 +524,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/1984.jpg",
         "pdf":"",
         "nota": 4.7,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     3: {
@@ -534,7 +534,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/amaquinadotempo.jpg",
         "pdf":"",
         "nota": 2.0,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     4: {
@@ -544,7 +544,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/ametamorfose.jpg",
         "pdf":"",
         "nota": 8.6,
-        "categoria": 6,
+        "sub_categoria":"terror",
         "estoque": 1
     },
     5: {
@@ -554,7 +554,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/arevolucaodosbichos.jpg",
         "pdf":"",
         "nota": 6.8,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     6: {
@@ -564,7 +564,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/dunasaga.jpg",
         "pdf":"",
         "nota": 3.9,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     7: {
@@ -574,7 +574,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/estilhacame.jpg",
         "pdf":"",
         "nota": 7.6,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     8: {
@@ -584,7 +584,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/jogosvorazes.jpg",
         "pdf":"",
         "nota": 5.1,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     9: {
@@ -594,7 +594,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/libertame.jpg",
         "pdf":"",
         "nota": 2.6,
-        "categoria": 6,
+        "sub_categoria":"",
         "estoque": 1
     },
     10: {
@@ -604,7 +604,7 @@ ficcao = {
         "linkimg":"main/livros/ficcao/osenhordosaneis.jpg",
         "pdf":"",
         "nota": 7.7,
-        "categoria": 6,
+        "sub_categoria":"infantil",
         "estoque": 1
     },
 }
