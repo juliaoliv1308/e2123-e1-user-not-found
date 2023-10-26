@@ -1,0 +1,25 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<section class="books">
+    <section class="books1">
+        <img class="book-cover" src="{% static livro.linkimg %}" alt="Capa do Livro">
+    </section>
+    <section class="books2">
+        <div class="book-details">
+            <h2>{{ livro.nome }}</h2>
+            <p>Estoque: {{ livro.estoque }}</p>
+            <form method="post" action="{% url 'angeline:alugar_livro' livro.id %}">
+                {% csrf_token %}
+                <button class="button-alugar" name="button_alugar" type="submit">Alugar</button>
+                <button class="button-devolver" name="button_devolver" type="submit">Devolver</button>
+            </form>
+            {% if livro.estoque == 0%}
+                <p><a href="{% static livro.pdf %}" download>Baixar PDF</a></p>
+            {% endif %}
+            <p>Sinopse: {{ livro.resumo }}</p>
+        </div>
+    </section>
+</section>
+{% endblock %}

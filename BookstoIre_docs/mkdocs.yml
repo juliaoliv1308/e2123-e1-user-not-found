@@ -1,0 +1,8 @@
+site_name: BookstoIre
+theme: Biblioteca
+  name: material
+nav:
+  - Introdução à BookstoIre: introducao.md
+  - Instalação: instalacao.md
+  - Modo de uso: modo_de_uso.md
+

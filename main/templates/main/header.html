@@ -1,23 +1,23 @@
 {% load static %}
+
 <section class="header1">
     <div class="titulo">
-        <img class="logoimg" src="{% static 'main/OIG.jpg' %}"></img>
-        <h1>Bookstoire</h1>
+        <a class="inicial" href="{% url 'angeline:helloworld' %}">
+            <img class="logoimg" src="{% static 'main/OIG.jpg' %}" alt="Logo da Bookstoire">
+            <h1>Booksto<strong class="itali">I</strong>re</h1>
+        </a>
     </div>
     <div></div>
     <div>
-        <input type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        <form method="get" action="{% url 'angeline:pesquisar_livros' %}">
+            <input type="text" id="meuCampoDeTexto" name="meuCampoDeTexto">
+        </form>
     </div>
 </section>
+
 <section class="header2">
-    <nav class="navheader">
-        <ul class="listaheader">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-            <li>Item 6</li>
-        </ul>
-    </nav>
+    {% block navbar %}
+        {% include 'main/nav.html' %}
+    {% endblock %}
 </section>
+

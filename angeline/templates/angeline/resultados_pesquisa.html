@@ -1,0 +1,26 @@
+{% extends "main/base.html" %}
+{% load static %}
+{% block content %}
+<section class="pesquisa">
+    {% if resultados %}
+        <ul>
+            {% for categoria, livros in resultados.items %}
+                <h2>{{ categoria }}</h2>
+                <ul>
+                    {% for chave, livro in livros.items %}
+                    <li>
+                        <a href="{% url 'angeline:alugar_livro' livro.id %}">
+                            <img class="imgpesquisa" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                            <strong>{{ livro.nome }}</strong>
+                            <p>Nota: {{ livro.nota }}</p>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhum resultado encontrado.</p>
+    {% endif %}
+</section>
+{% endblock %}

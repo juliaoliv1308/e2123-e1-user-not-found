@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#999999",
         "activityBar.background": "#999999",
@@ -27,4 +28,10 @@
         "titleBar.inactiveBackground": "#80808099",
         "titleBar.inactiveForeground": "#ffd70099"
     }
+=======
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
+>>>>>>> origin/dev
 }
