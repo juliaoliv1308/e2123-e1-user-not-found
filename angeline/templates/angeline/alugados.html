@@ -1,0 +1,28 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Livros Alugados por {{ user.username }}</h1>
+{% if alugados %}
+    <ul>
+        {% for livro_id, livro_data in alugados.items %}
+            {% if livro_data.id == user.id %}
+                {% for chave, livro in livro_data.items %}  
+                    {% if livro.linkimg %}
+                        <li>
+                            <a>
+                                <img class="imgpesquisa" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                                <strong>{{ livro.nome }}</strong>
+                                <p>Nota: {{ livro.nota }}</p>
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Nenhum livro alugado encontrado para {{ user.username }}.</p>
+{% endif %}
+
+{% endblock %}

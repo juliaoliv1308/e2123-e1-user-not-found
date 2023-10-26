@@ -10,14 +10,14 @@
         <div class="book-details">
             <h2>{{ livro.nome }}</h2>
             <p>Estoque: {{ livro.estoque }}</p>
-            <form method="post" id="100" action="{% url 'angeline:alugar_livro' livro.id %}">
+            <form method="post" action="{% url 'angeline:alugar_livro' livro.id %}">
                 {% csrf_token %}
-                <button class="button-alugar" type="submit">Alugar</button>
+                <button class="button-alugar" name="button_alugar" type="submit">Alugar</button>
+                <button class="button-devolver" name="button_devolver" type="submit">Devolver</button>
             </form>
-            <form method="post" id="100" action="{% url 'angeline:alugar_livro' livro.id %}">
-                {% csrf_token %}
-                <button class="button-devolver" type="submit">Devolver</button>
-            </form>
+            {% if livro.estoque == 0%}
+                <p><a href="{% static livro.pdf %}" download>Baixar PDF</a></p>
+            {% endif %}
             <p>Sinopse: {{ livro.resumo }}</p>
         </div>
     </section>
