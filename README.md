@@ -29,7 +29,8 @@ Para iniciarmos a documentação do projeto, baixamos a extensão do MkDocs, que
 
  [[Introdução à BookstoIre disponível]](BookstoIre_docs/docs/introdução.md)  
  [[Manual de instalação disponível]](BookstoIre_docs/docs/instalação.md)  
- [[Modos de utilização da BookstoIre disponíveis]](BookstoIre_docs/docs/modo_de_uso.md)
+ [[Modos de utilização da BookstoIre disponíveis]](BookstoIre_docs/docs/modo_de_uso.md)  
+ [[Diagrama de Entidade-Relacionamento]](BookstoIre_docs/ScreenShot_20231026104202.jpeg)
 
 
 
