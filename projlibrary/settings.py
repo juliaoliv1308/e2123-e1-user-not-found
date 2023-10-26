@@ -54,7 +54,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "projlibrary.urls"
-LOGIN_REDIRECT_URL = '/'
+LOGIN_REDIRECT_URL = 'angeline:helloworld'
+
 
 
 TEMPLATES = [

@@ -11,7 +11,7 @@ Antes de começar a instalação, certifique-se de que você atenda aos seguinte
 ## Instalação via pip
 A forma mais simples de instalar a  BookstoIre é usando o `pip` para instalar o requirements.txt, que é o gerenciador de pacotes padrão do Python. Abra seu terminal ou prompt de comando e execute o seguinte comando:
 
-```bash ```
+```bash```
 pip install -r requirements.txt
 
 

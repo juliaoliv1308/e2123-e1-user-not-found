@@ -104,9 +104,9 @@ def alugar_livro(request, book_id):
             if valor["id"] == book_id:
                 if request.method == 'POST':
                     if "button_alugar" in request.POST:
-                        if valor.get("id") not in alugados:
-                            alugados[chave] = {"id":user.id,"valor":valor}
-                            print(alugados)
+                    
+                        alugados[chave] = {"id":user.id,"valor":valor}
+                        print(alugados)
                         if valor["estoque"] >= 1:
                             valor["estoque"] -= 1
                     elif "button_devolver" in request.POST:
@@ -168,7 +168,7 @@ def register(request):
         if form.is_valid():
             user = form.save()
             login(request, user)  # Faça o login do usuário após o registro
-            return redirect('perfil')  # Redirecione para a página de perfil após o registro
+            return redirect('/')  # Redirecione para a página de perfil após o registro
     else:
         form = CustomUserCreationForm()
         

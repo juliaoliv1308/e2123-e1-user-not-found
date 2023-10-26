@@ -114,7 +114,23 @@ header {
     text-decoration: none;
 } .dropdown-menu li:hover {
     background-color:  #668573;
-} 
+} .popup {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} .popup-trigger:hover + .popup {
+    display: block;
+} .popup-trigger {
+    text-decoration: none;
+    color: #007bff;
+    
+} .popup-trigger:hover {
+    cursor: pointer;
+}
 
 /* Main */
 main {

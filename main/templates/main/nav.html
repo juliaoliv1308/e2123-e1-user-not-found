@@ -11,10 +11,19 @@
                 <li><a href="{% url 'angeline:categlivro' 6 %}">Ficção</a></li>
             </ul>
         </li>
-        <li><a href="#">Quem somos</a></li>
-        <li><a href={% url 'angeline:alugados' %}>Alugados</a></li>
-        <li><a href="#">Créditos</a></li>
-        <li><a href="#">Biblioteca</a></li>
+        <li>
+            <a href="#">Quem somos</a>
+            <div class="popup">Função Futura</div>
+        </li>
+        <li><a href="{% url 'angeline:alugados' %}">Alugados</a></li>
+        <li>
+            <a href="#" class="popup-trigger">Créditos</a>
+            <div class="popup">Função Futura</div>
+        </li>
+        <li>
+            <a href="#" class="popup-trigger">Biblioteca</a>
+            <div class="popup">Função Futura</div>
+        </li>
         <li><a href="{% url 'angeline:login' %}">Login</a></li>
     </ul>
 </nav>
