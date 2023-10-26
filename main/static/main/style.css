@@ -24,6 +24,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#3333334b;
 } .header2 {
     width: 100%;
     height: 40px;
