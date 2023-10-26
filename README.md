@@ -34,4 +34,22 @@ Para iniciarmos a documentação do projeto, baixamos a extensão do MkDocs, que
 
 
 
+Criterios para avaliação:
+
+- Erros encontratos no procedimento de instalação do projeto em um computador na sala de aula. 20
+
+- Avaliação do manual [README.md](http://README.md) explicando: O README está bem completo. Mas achamos um pouquinho confuso, pois solicita dentro para instalar um "MkDocs" que não sabemos como funciona. E não entendemos se é pra gente utilizar. 17
+
+- Funcionalidades em tela apresentadas e com erros. 20
+
+- Funcionalidades apresentadas em tela e incompletas sem a devida marcação. 20
+
+- Percentual de aderencia ao enunciado da questão. Levatar em uma checklist todos os itens. Falt0u mais informações sobre o livro. Ao acessarmos outra a página que teria de ter mais informações do livro, apenas tinha a sinopse. 17
+
+No geral ficou muito legal. Tudo está funcional e todos os códigos estão muito bem organizados. Seguiu tudo que o professor solicitou!
+
+"Nota" final: 94!
+
+Parabéns a todos!
+
 
