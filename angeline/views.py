@@ -104,7 +104,6 @@ def alugar_livro(request, book_id):
             if valor["id"] == book_id:
                 if request.method == 'POST':
                     if "button_alugar" in request.POST:
-                    
                         alugados[chave] = {"id":user.id,"valor":valor}
                         print(alugados)
                         if valor["estoque"] >= 1:
