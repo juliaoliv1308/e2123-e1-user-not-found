@@ -30,7 +30,7 @@ class Livro(models.Model):
     sub_categoria = models.CharField(max_length=255, blank=True)
     estoque = models.PositiveIntegerField()
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
-    aluguel = models.ForeignKey(Aluguel, on_delete=models.CASCADE, default="")
+    aluguel = models.ForeignKey(Aluguel, on_delete=models.CASCADE, null=True)
 
     @csrf_exempt
     def __str__(self):

@@ -396,143 +396,160 @@
         }
     },
     {
+        "model": "angeline.categoria",
+        "pk": 1,
+        "fields": {
+            "nome": "Nome da Categoria"
+        }
+    },
+    {
         "model": "angeline.livro",
         "pk": 1,
         "fields": {
-            "titulo": "A quietude é a chave",
+            "nome": "A quietude é a chave",
             "resumo": "Explora a importância do equilíbrio e da reflexão na vida moderna, destacando como a serenidade pode levar a uma vida mais significativa.",
             "linkimg": "main/livros/autoajuda/aquietudeeachave.jpg",
             "pdf": "main/livros/autoajuda/aquietudeeachave.pdf",
-            "nota": 10,
+            "nota": "10.0",
             "sub_categoria": "desenvolvimento pessoal",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 2,
         "fields": {
-            "titulo": "Ative sua mente",
+            "nome": "Ative sua mente",
             "resumo": "Revela estratégias para otimizar o potencial mental, estimular a criatividade e alcançar o sucesso pessoal.",
             "linkimg": "main/livros/autoajuda/ativesuamente.jpg",
             "pdf": "main/livros/autoajuda/ativesuamente.pdf",
-            "nota": 3.8,
+            "nota": "3.8",
             "sub_categoria": "desenvolvimento pessoal",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 3,
         "fields": {
-            "titulo": "Como fazer amigos",
+            "nome": "Como fazer amigos",
             "resumo": "Oferece conselhos sobre construir relacionamentos autênticos, comunicar eficazmente e criar conexões significativas.",
             "linkimg": "main/livros/autoajuda/comofazeramigos.jpg",
             "pdf": "main/livros/autoajuda/comofazeramigos.pdf",
-            "nota": 6.2,
+            "nota": "6.2",
             "sub_categoria": "",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 4,
         "fields": {
-            "titulo": "Coragem de não agradar",
+            "nome": "Coragem de não agradar",
             "resumo": "Aborda o p, mostrando como superar expectativas alheias e encontrar a verdadeira felicidade.",
             "linkimg": "main/livros/autoajuda/coragemdenaoagradar.jpg",
             "pdf": "main/livros/autoajuda/coragemdenaoagradar.pdf",
-            "nota": 9.1,
+            "nota": "9.1",
             "sub_categoria": "desenvolvimento pessoal",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 5,
         "fields": {
-            "titulo": "Limite zero",
+            "nome": "Limite zero",
             "resumo": "Explora o poder da técnica Ho'oponopono, que visa liberar traumas e alcançar a paz interior e cura pessoal.",
             "linkimg": "main/livros/autoajuda/limitezero.jpg",
             "pdf": "main/livros/autoajuda/limitezero.pdf",
-            "nota": 2.5,
+            "nota": "2.5",
             "sub_categoria": "",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 6,
         "fields": {
-            "titulo": "Mindset",
+            "nome": "Mindset",
             "resumo": "Aborda como a mentalidade pode moldar o sucesso. Destaca a importância da mentalidade de crescimento.",
             "linkimg": "main/livros/autoajuda/mindset.jpg",
             "pdf": "main/livros/autoajuda/mindset.pdf",
-            "nota": 8.3,
+            "nota": "8.3",
             "sub_categoria": "desenvolvimento pessoal",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 7,
         "fields": {
-            "titulo": "O ego e seu inimigo",
+            "nome": "O ego e seu inimigo",
             "resumo": "Aborda a autorreflexão, sugerindo que o ego pode ser um obstáculo ao crescimento pessoal e à paz interior.",
             "linkimg": "main/livros/autoajuda/oegoeseuinimigo.jpg",
             "pdf": "main/livros/autoajuda/oegoeseuinimigo.pdf",
-            "nota": 5.7,
+            "nota": "5.7",
             "sub_categoria": "",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 8,
         "fields": {
-            "titulo": "O milagre da manhã",
+            "nome": "O milagre da manhã",
             "resumo": "Incentiva a rotina matinal para aumentar a produtividade, melhorar a saúde e alcançar objetivos pessoais.",
             "linkimg": "main/livros/autoajuda/omilagredamanha.jpg",
             "pdf": "main/livros/autoajuda/omilagredamanha.pdf",
-            "nota": 4.2,
+            "nota": "4.2",
             "sub_categoria": "",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 9,
         "fields": {
-            "titulo": "O poder do hábito",
+            "nome": "O poder do hábito",
             "resumo": "Explora como os hábitos influenciam vidas e organizações, com insights sobre como mudá-los para o sucesso.",
             "linkimg": "main/livros/autoajuda/opoderdohabito.jpg",
             "pdf": "main/livros/autoajuda/opoderdohabito.pdf",
-            "nota": 7.9,
+            "nota": "7.9",
             "sub_categoria": "desenvolvimento pessoal",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     },
     {
         "model": "angeline.livro",
         "pk": 10,
         "fields": {
-            "titulo": "Procrastinação",
+            "nome": "Procrastinação",
             "resumo": "Explora as causas da procrastinação e oferece estratégias para superá-la e alcançar maior produtividade e realização.",
             "linkimg": "main/livros/autoajuda/procrastinacao.jpg",
             "pdf": "main/livros/autoajuda/procrastinacao.pdf",
-            "nota": 1.6,
+            "nota": "1.6",
             "sub_categoria": "",
             "estoque": 1,
-            "categoria": 1
+            "categoria": 1,
+            "aluguel_id": null
         }
     }
 ]
