@@ -168,7 +168,7 @@ def register(request):
         if form.is_valid():
             user = form.save()
             login(request, user)  # Faça o login do usuário após o registro
-            return redirect('/')  # Redirecione para a página de perfil após o registro
+            return redirect('helloworld/')  # Redirecione para a página de perfil após o registro
     else:
         form = CustomUserCreationForm()
         
