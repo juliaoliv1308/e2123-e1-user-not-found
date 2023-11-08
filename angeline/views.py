@@ -3,6 +3,7 @@ from django.shortcuts import render, redirect
 from .forms import CustomUserCreationForm
 from django.contrib.auth.decorators import login_required
 from .dicionarios import dicionarios, alugados
+from .models import Livro
 import unicodedata
 
 # Create your views here.

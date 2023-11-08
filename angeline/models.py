@@ -6,19 +6,50 @@ from django.db import models
 
 class Autor(models.Model):
     id = models.AutoField(primary_key=True)
-    nome = models.CharField(max_length=255, verbose_name='Author name', null=True)
+    nome = models.CharField(max_length=255, verbose_name='Author Name', null=True, blank=True)
 
     def __str__(self):
-        return self.nome
+        # Retorna o nome do autor e o ID em um formato string.
+        return f"{self.nome} {self.id}"
+
+    class Meta:
+        # Define a ordenação padrão para ser pelo nome.
+        ordering = ['nome']
+
+        verbose_name = 'Autor'
+        verbose_name_plural = 'Autores'
+
 
 class Editora(models.Model):
     id = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=255, verbose_name='Publisher name', null=True)
     livro_nome = models.CharField(max_length=255, verbose_name='Book title', null=True)
 
+    def __str__(self):
+        # Retorna o nome do autor e o ID em um formato string.
+        return f"{self.nome} {self.id}"
+
+    class Meta:
+        # Define a ordenação padrão para ser pelo nome.
+        ordering = ['nome']
+
+        verbose_name = 'Editora'
+        verbose_name_plural = 'Editoras'
+
 class Status(models.Model):
     id = models.AutoField(primary_key=True)
     status = models.BooleanField(default=False)
+
+    def __str__(self):
+        # Retorna o nome do autor e o ID em um formato string.
+        return f"{self.id}"
+
+    class Meta:
+        # Define a ordenação padrão para ser pelo nome.
+        ordering = ['id']
+
+        verbose_name = 'Statu'
+        verbose_name_plural = 'Status'
 
 class Livro(models.Model):
     id = models.AutoField(primary_key=True)
@@ -36,3 +67,9 @@ class Livro(models.Model):
     def __str__(self):
         return f'{self.nome} - {self.id}'
 
+    class Meta:
+        # Define a ordenação padrão para ser pelo nome.
+        ordering = ['nome']
+
+        verbose_name = 'Livro'
+        verbose_name_plural = 'Livros'
