@@ -19,7 +19,6 @@ class Autor(models.Model):
         verbose_name = 'Autor'
         verbose_name_plural = 'Autores'
 
-
 class Editora(models.Model):
     id = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=255, verbose_name='Publisher name', null=True)
