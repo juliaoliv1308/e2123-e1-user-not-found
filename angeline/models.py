@@ -37,11 +37,11 @@ class Editora(models.Model):
 
 class Status(models.Model):
     id = models.AutoField(primary_key=True)
-    status = models.BooleanField(default=False)
+    status = models.BooleanField(default=False, null=True)
 
     def __str__(self):
         # Retorna o nome do autor e o ID em um formato string.
-        return f"{self.id}"
+        return f"{self.status} - {self.id}"
 
     class Meta:
         # Define a ordenação padrão para ser pelo nome.
