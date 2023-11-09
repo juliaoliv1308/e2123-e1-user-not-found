@@ -40,16 +40,74 @@
 </section>
 <section>
     <div class="divsecmain2">
-        {% for categoria, livros in resultados.items %}
-                {% for chave, livro in livros.items %}
-                <a href="{% url 'angeline:alugar_livro' livro.id %}">
-                        <img class="imginicial" src="{% static livro.linkimg %}" alt="Capa do Livro">
-                        <div>
-                            <strong>{{ livro.nome }}</strong>
-                        </div>
-                </a>
-                {% endfor %}
-        {% endfor %}
+        <div class="subcategname">
+            <h2>Livros com tematicas infantis</h2>
+        </div>
+        <div class="subcateg">
+            {% for categoria, livros in resultados.items %}
+                    {% for chave, livro in livros.items %}
+                        {% if livro.sub_categoria == "infantil" %}
+                            <a href="{% url 'angeline:alugar_livro' livro.id %}">
+                                <img class="imginicial" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                                <div>
+                                    <strong>{{ livro.nome }}</strong>
+                                </div>
+                            </a>
+                        {% endif %} 
+                    {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="subcategname">
+            <h2>Livros com tematicas de terror</h2>
+        </div>
+        <div class="subcateg">
+            {% for categoria, livros in resultados.items %}
+                    {% for chave, livro in livros.items %}
+                        {% if livro.sub_categoria == "terror" %}
+                            <a href="{% url 'angeline:alugar_livro' livro.id %}">
+                                <img class="imginicial" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                                <div>
+                                    <strong>{{ livro.nome }}</strong>
+                                </div>
+                            </a>
+                        {% endif %} 
+                    {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="subcategname">
+            <h2>Livros com tematicas de suspense adulto</h2>
+        </div>
+        <div class="subcateg">
+            {% for categoria, livros in resultados.items %}
+                    {% for chave, livro in livros.items %}
+                        {% if livro.sub_categoria == "suspense adulto" %}
+                            <a href="{% url 'angeline:alugar_livro' livro.id %}">
+                                <img class="imginicial" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                                <div>
+                                    <strong>{{ livro.nome }}</strong>
+                                </div>
+                            </a>
+                        {% endif %} 
+                    {% endfor %}
+            {% endfor %}
+        </div>
+        <div class="subcategname">
+            <h2>Livros com tematicas de desenvolvimento pessoal</h2>
+        </div>
+        <div class="subcateg">
+            {% for categoria, livros in resultados.items %}
+                    {% for chave, livro in livros.items %}
+                        {% if livro.sub_categoria == "desenvolvimento pessoal" %}
+                            <a href="{% url 'angeline:alugar_livro' livro.id %}">
+                                <img class="imginicial" src="{% static livro.linkimg %}" alt="Capa do Livro">
+                                <div>
+                                    <strong>{{ livro.nome }}</strong>
+                                </div>
+                            </a>
+                        {% endif %} 
+                    {% endfor %}
+            {% endfor %}
+        </div>
     </div>
 </section>
 

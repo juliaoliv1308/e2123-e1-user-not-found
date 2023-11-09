@@ -1,6 +1,7 @@
 {% extends "main/base.html" %}
 {% load static %}
 {% block content %}
+<<<<<<< HEAD
 <section class="pesquisa">
     {% if resultados %}
         <ul>
@@ -8,6 +9,14 @@
                 <h2>{{ categoria }}</h2>
                 <ul>
                     {% for chave, livro in livros.items %}
+=======
+{% if resultados %}
+    <ul>
+        {% for categoria, livros in resultados.items %}
+            <h2>{{ categoria }}</h2>
+            <ul>
+                {% for chave, livro in livros.items %}
+>>>>>>> dev
                     <li>
                         <a href="{% url 'angeline:alugar_livro' livro.id %}">
                             <img class="imgpesquisa" src="{% static livro.linkimg %}" alt="Capa do Livro">
@@ -15,6 +24,7 @@
                             <p>Nota: {{ livro.nota }}</p>
                         </a>
                     </li>
+<<<<<<< HEAD
                     {% endfor %}
                 </ul>
             {% endfor %}
@@ -24,3 +34,14 @@
     {% endif %}
 </section>
 {% endblock %}
+=======
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Nenhum resultado encontrado.</p>
+{% endif %}
+
+{% endblock %}
+>>>>>>> dev

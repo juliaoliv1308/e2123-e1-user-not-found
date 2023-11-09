@@ -1,5 +1,9 @@
-from django.shortcuts import render
-from .dicionarios import dicionarios
+from django.contrib.auth import login
+from django.shortcuts import render, redirect
+from .forms import CustomUserCreationForm
+from django.contrib.auth.decorators import login_required
+from .dicionarios import dicionarios, alugados
+from .models import Livro
 import unicodedata
 
 # Create your views here.
@@ -21,7 +25,7 @@ def melhores(dicionarios):
 def remover_acentos(texto):
     # Passo 1: Transformar o texto em minúsculas
     texto = texto.lower()
-    
+
     # Passo 2: Remover espaços em branco
     texto_sem_espacos = ""
     for caracter in texto:
@@ -31,14 +35,16 @@ def remover_acentos(texto):
     # Passo 3: Remover acentos
     texto_sem_acentos = ""
     for caracter in texto_sem_espacos:
-        caracter_sem_acento = unicodedata.normalize('NFD', caracter).encode('ascii', 'ignore').decode('utf-8')
+        caracter_sem_acento = unicodedata.normalize(
+            'NFD', caracter).encode('ascii', 'ignore').decode('utf-8')
         texto_sem_acentos += caracter_sem_acento
 
     return texto_sem_acentos
 
-def pesquisar_livros(request, categoria_id=None):
+
+def pesquisar_livros(request):
     query = request.GET.get('meuCampoDeTexto', '').strip()
-    
+
     # Aplicar as transformações na string query
     query = remover_acentos(query)
    
@@ -65,24 +71,25 @@ def pesquisar_livros(request, categoria_id=None):
     }
     return render(request, 'angeline/resultados_pesquisa.html', context)
 
+
 def helloworld(request):
     meio = len(dicionarios) // 2
 
     # Divide o dicionário em duas partes
     dict1 = dict(list(dicionarios.items())[:meio])
     dict2 = dict(list(dicionarios.items())[meio:])
-        
+
     notas_maximas1 = melhores(dict1)
     notas_maximas2 = melhores(dict2)
-    
+
     resultados = {}
-    
+
     for categoria, dicionario in dicionarios.items():
         livros_correspondentes = {}
         for chave, valor in dicionario.items():
             if valor["nome"]:
                 livros_correspondentes[chave] = valor
-    
+
         if livros_correspondentes:
             resultados[categoria] = livros_correspondentes
 
@@ -94,36 +101,39 @@ def helloworld(request):
     return render(request, 'angeline/index.html', context)
 
 
+@login_required
 def alugar_livro(request, book_id):
-    mensagem = ""
+    user = request.user
+    livro_alugado = {}
 
-    livros_encontrados = {}
-    
     for categoria, dicionario in dicionarios.items():
         for chave, valor in dicionario.items():
             if valor["id"] == book_id:
                 if request.method == 'POST':
-                    if valor["estoque"] >= 1:
-                        valor["estoque"] -= 1
-                        mensagem = f"Livro '{valor['nome']}' alugado com sucesso! Novo estoque: {valor['estoque']}"
-                    else:
-                        mensagem = f"Não é possível alugar o livro '{valor['nome']}'"
+                    if "button_alugar" in request.POST:
+
+                        alugados[chave] = {"id": user.id, "valor": valor}
+                        print(alugados)
+                        if valor["estoque"] >= 1:
+                            valor["estoque"] -= 1
+                    elif "button_devolver" in request.POST:
+                        if valor["estoque"] == 0:
+                            valor["estoque"] += 1
                 valor["categoria"] = categoria
-                livros_encontrados[categoria] = valor
+                livro_alugado[categoria] = valor
                 break  # Saia do loop interno, pois o livro foi encontrado
 
     # Inicialize as variáveis fora do loop e remova o segundo loop
     categoriaf = None
     livrof = None
 
-    for c, l in livros_encontrados.items():
+    for c, l in livro_alugado.items():
         categoriaf = c
         livrof = l
-    
+
     context = {
         'livro': livrof,
         'categoria': categoriaf,
-        'mensagem': mensagem,
     }
     return render(request, 'angeline/books.html', context)
 
@@ -155,3 +165,51 @@ def categ_livros(request, categ_id):
 
     return render(request, 'angeline/categlivros.html', contexto)
 
+    return render(request, 'angeline/books.html', context)
+
+
+@login_required
+def lista_alugados(request):
+    user = request.user  # Obtém o usuário atual
+
+    context = {
+        'user': user,
+        'alugados': alugados,
+    }
+
+    return render(request, 'angeline/alugados.html', context)
+
+
+def categlivro(request, categid):
+    resultados = {}
+
+    for categoria, dicionario in dicionarios.items():
+        livros_correspondentes = {}
+        for chave, valor in dicionario.items():
+            if categid == valor["categoria"]:
+                livros_correspondentes[chave] = valor
+
+        if livros_correspondentes:
+            resultados[categoria] = livros_correspondentes
+
+    context = {
+        "resultados": resultados,
+    }
+    return render(request, 'angeline/categlivros.html', context)
+
+
+def register(request):
+    if request.method == 'POST':
+        form = CustomUserCreationForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)  # Faça o login do usuário após o registro
+            return redirect('helloworld/')  # Redirecione para a página de perfil após o registro
+    else:
+        form = CustomUserCreationForm()
+
+    context = {
+        'form': form
+    }
+
+    return render(request, 'registration/register.html', context)

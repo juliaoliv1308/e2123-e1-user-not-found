@@ -24,6 +24,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color:#3333334b;
 } .header2 {
     width: 100%;
     height: 40px;
@@ -113,6 +114,22 @@ header {
     text-decoration: none;
 } .dropdown-menu li:hover {
     background-color:  #668573;
+} .popup {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} .popup-trigger:hover + .popup {
+    display: block;
+} .popup-trigger {
+    text-decoration: none;
+    color: #007bff;
+    
+} .popup-trigger:hover {
+    cursor: pointer;
 }
 
 /* Main */
@@ -207,7 +224,7 @@ main {
     padding: 10px;
     box-shadow: inset -0.5px 0.5px 5px 0.5px rgba(0, 0, 0, 0.155);
     margin-bottom: 30px;
-} .divsecmain2 a {
+} .subcateg a {
     width: 200px;
     height: 140px;
     margin: 5px;
@@ -223,18 +240,29 @@ main {
     height: 100%;
     width: 45%;
     border-radius: 4px;
-} .divsecmain2 a div {
+} .subcateg a div {
     height: 100%;
     width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-} .divsecmain2 a:hover {
+} .subcateg a:hover {
     transform: scale(1.05);
     box-shadow: 0.5px 0.5px 3px 1px rgba(26, 26, 26, 0.604);
     background-color: #668573;
     cursor: pointer;
+} .subcateg {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+} .subcategname {
+    width: 95%;
+    display: flex;
 } .books {
     display: flex;
     flex-direction: row;
