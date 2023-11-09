@@ -1,7 +1,7 @@
-{% extends "main/base.html" %}
 {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'main/style5.css' %}">
 
-{% block content %}
+<main>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
@@ -9,4 +9,6 @@
     </form>
 
     <p><a href="{% url 'angeline:login' %}">Logar</a></p>
-{% endblock %}
+    <br>
+    <p><a href="/admin">admin</a></p>
+</main>

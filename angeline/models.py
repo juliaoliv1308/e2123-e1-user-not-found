@@ -1,7 +1,7 @@
 from django.db import models
-
-# Create your models here.
-from django.db import models
+from django.db.models import Avg
+from django.core.validators import MinValueValidator, MaxValueValidator
+from django.contrib.auth.models import User
 
 
 class Autor(models.Model):
@@ -64,6 +64,11 @@ class Livro(models.Model):
     editora = models.ForeignKey(Editora, on_delete=models.CASCADE, verbose_name='Editora', null=True)
     status = models.ForeignKey(Status, on_delete=models.CASCADE, verbose_name='Status', null=True)
 
+    @property
+    def nota_media(self):
+        media = self.livro_avaliado.aggregate(Avg('nota'))['nota__avg']
+        return round(media, 1) if media else None
+
     def __str__(self):
         return f'{self.nome} - {self.id}'
 
@@ -73,3 +78,24 @@ class Livro(models.Model):
 
         verbose_name = 'Livro'
         verbose_name_plural = 'Livros'
+
+
+class Avaliacao_usuario(models.Model):
+    id = models.AutoField(primary_key=True)
+    usuario = models.ForeignKey(User, on_delete=models.CASCADE, related_name='usuario_avaliador')
+    livro = models.ForeignKey(Livro, on_delete=models.CASCADE, related_name='livro_avaliado')
+    dissertacao = models.CharField(max_length=1000, null=True)
+    nota = models.DecimalField(max_digits=3, decimal_places=1, validators=[MinValueValidator(0), MaxValueValidator(10)])
+    
+    def nota_media(self):
+        media = Avaliacao_usuario.objects.filter(livro=self.livro).aggregate(Avg('nota'))['nota__avg']
+        return round(media, 1) if media else None
+    
+    def __str__(self):
+        return f'Avaliação {self.id}'
+    
+    
+    class Meta:
+        ordering = ['usuario']
+        verbose_name = 'Avaliação'
+        verbose_name_plural = 'Avaliações'
