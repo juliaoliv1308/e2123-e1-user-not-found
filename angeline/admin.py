@@ -16,3 +16,4 @@ class LivroAdmin(admin.ModelAdmin):
     def nota_media_display(self, obj):
         return obj.nota_media
     nota_media_display.short_description = 'Nota Média'
+

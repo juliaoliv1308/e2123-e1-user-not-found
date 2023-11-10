@@ -63,6 +63,18 @@ class Livro(models.Model):
     autor = models.ForeignKey(Autor, on_delete=models.CASCADE, verbose_name='Autor', null=True)
     editora = models.ForeignKey(Editora, on_delete=models.CASCADE, verbose_name='Editora', null=True)
     status = models.ForeignKey(Status, on_delete=models.CASCADE, verbose_name='Status', null=True)
+    
+    @classmethod
+    def melhores_notas_por_categoria(cls):
+        categorias = set(Livro.objects.values_list('categoria', flat=True).distinct())
+        melhores_notas = {}
+
+        for categoria in categorias:
+            livro_melhor_nota = Livro.objects.filter(categoria=categoria).order_by('-nota').first()
+            if livro_melhor_nota:
+                melhores_notas[categoria] = livro_melhor_nota
+
+        return melhores_notas
 
     @property
     def nota_media(self):

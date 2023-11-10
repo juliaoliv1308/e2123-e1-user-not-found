@@ -9,19 +9,6 @@ import unicodedata
 # Create your views here.
 
 
-def melhores(dicionarios):
-    notas_maximas = {}
-    for categoria, dicionario in dicionarios.items():
-        nota_maxima = None
-        livro_maximo = None
-        for chave, valor in dicionario.items():
-            if nota_maxima is None or valor["nota"] > nota_maxima:
-                nota_maxima = valor["nota"]
-                livro_maximo = valor
-        notas_maximas[categoria] = livro_maximo
-    return notas_maximas
-
-
 def remover_acentos(texto):
     # Passo 1: Transformar o texto em minúsculas
     texto = texto.lower()
@@ -69,29 +56,24 @@ def pesquisar_livros(request):
 
 
 def helloworld(request):
-    meio = len(dicionarios) // 2
+    # Obtém as melhores notas por categoria
+    melhores_notas = Livro.melhores_notas_por_categoria()
 
-    # Divide o dicionário em duas partes
-    dict1 = dict(list(dicionarios.items())[:meio])
-    dict2 = dict(list(dicionarios.items())[meio:])
-
-    notas_maximas1 = melhores(dict1)
-    notas_maximas2 = melhores(dict2)
+    # Divide as categorias em duas partes
+    meio = len(melhores_notas) // 2
+    dict1 = dict(list(melhores_notas.items())[:meio])
+    dict2 = dict(list(melhores_notas.items())[meio:])
 
     resultados = {}
 
     for categoria, dicionario in dicionarios.items():
         livros_correspondentes = {}
-        for chave, valor in dicionario.items():
-            if valor["nome"]:
-                livros_correspondentes[chave] = valor
-
         if livros_correspondentes:
             resultados[categoria] = livros_correspondentes
 
     context = {
-        "novo_dic1": notas_maximas1,
-        "novo_dic2": notas_maximas2,
+        "novo_dic1": dict1,
+        "novo_dic2": dict2,
         "resultados": resultados,
     }
     return render(request, 'angeline/index.html', context)
