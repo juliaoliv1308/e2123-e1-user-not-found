@@ -64,18 +64,20 @@ def helloworld(request):
     dict1 = dict(list(melhores_notas.items())[:meio])
     dict2 = dict(list(melhores_notas.items())[meio:])
 
-    resultados = {}
+    valores = Livro.objects.all()
 
-    for categoria, dicionario in dicionarios.items():
-        livros_correspondentes = {}
-        if livros_correspondentes:
-            resultados[categoria] = livros_correspondentes
+    # Filtra os livros correspondentes aos resultados
+    resultados = {}
+    for valor in valores:
+        if valor.sub_categoria != '':
+            resultados[valor.id] = valor
 
     context = {
         "novo_dic1": dict1,
         "novo_dic2": dict2,
         "resultados": resultados,
     }
+
     return render(request, 'angeline/index.html', context)
 
 
