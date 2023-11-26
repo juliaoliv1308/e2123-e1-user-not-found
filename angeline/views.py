@@ -3,28 +3,16 @@ from django.shortcuts import render, redirect
 from .forms import CustomUserCreationForm
 from django.contrib.auth.decorators import login_required
 from .dicionarios import dicionarios, alugados
+from .models import Livro
 import unicodedata
 
 # Create your views here.
 
 
-def melhores(dicionarios):
-    notas_maximas = {}
-    for categoria, dicionario in dicionarios.items():
-        nota_maxima = None
-        livro_maximo = None
-        for chave, valor in dicionario.items():
-            if nota_maxima is None or valor["nota"] > nota_maxima:
-                nota_maxima = valor["nota"]
-                livro_maximo = valor
-        notas_maximas[categoria] = livro_maximo
-    return notas_maximas
-
-
 def remover_acentos(texto):
     # Passo 1: Transformar o texto em minúsculas
     texto = texto.lower()
-    
+
     # Passo 2: Remover espaços em branco
     texto_sem_espacos = ""
     for caracter in texto:
@@ -34,7 +22,8 @@ def remover_acentos(texto):
     # Passo 3: Remover acentos
     texto_sem_acentos = ""
     for caracter in texto_sem_espacos:
-        caracter_sem_acento = unicodedata.normalize('NFD', caracter).encode('ascii', 'ignore').decode('utf-8')
+        caracter_sem_acento = unicodedata.normalize(
+            'NFD', caracter).encode('ascii', 'ignore').decode('utf-8')
         texto_sem_acentos += caracter_sem_acento
 
     return texto_sem_acentos
@@ -42,7 +31,7 @@ def remover_acentos(texto):
 
 def pesquisar_livros(request):
     query = request.GET.get('meuCampoDeTexto', '').strip()
-    
+
     # Aplicar as transformações na string query
     query = remover_acentos(query)
 
@@ -65,32 +54,30 @@ def pesquisar_livros(request):
     }
     return render(request, 'angeline/resultados_pesquisa.html', context)
 
-def helloworld(request):
-    meio = len(dicionarios) // 2
 
-    # Divide o dicionário em duas partes
-    dict1 = dict(list(dicionarios.items())[:meio])
-    dict2 = dict(list(dicionarios.items())[meio:])
-        
-    notas_maximas1 = melhores(dict1)
-    notas_maximas2 = melhores(dict2)
-    
+def helloworld(request):
+    # Obtém as melhores notas por categoria
+    melhores_notas = Livro.melhores_notas_por_categoria()
+
+    # Divide as categorias em duas partes
+    meio = len(melhores_notas) // 2
+    dict1 = dict(list(melhores_notas.items())[:meio])
+    dict2 = dict(list(melhores_notas.items())[meio:])
+
+    valores = Livro.objects.all()
+
+    # Filtra os livros correspondentes aos resultados
     resultados = {}
-    
-    for categoria, dicionario in dicionarios.items():
-        livros_correspondentes = {}
-        for chave, valor in dicionario.items():
-            if valor["nome"]:
-                livros_correspondentes[chave] = valor
-    
-        if livros_correspondentes:
-            resultados[categoria] = livros_correspondentes
+    for valor in valores:
+        if valor.sub_categoria != '':
+            resultados[valor.id] = valor
 
     context = {
-        "novo_dic1": notas_maximas1,
-        "novo_dic2": notas_maximas2,
+        "novo_dic1": dict1,
+        "novo_dic2": dict2,
         "resultados": resultados,
     }
+
     return render(request, 'angeline/index.html', context)
 
 
@@ -98,14 +85,14 @@ def helloworld(request):
 def alugar_livro(request, book_id):
     user = request.user
     livro_alugado = {}
-    
+
     for categoria, dicionario in dicionarios.items():
         for chave, valor in dicionario.items():
             if valor["id"] == book_id:
                 if request.method == 'POST':
                     if "button_alugar" in request.POST:
-                    
-                        alugados[chave] = {"id":user.id,"valor":valor}
+
+                        alugados[chave] = {"id": user.id, "valor": valor}
                         print(alugados)
                         if valor["estoque"] >= 1:
                             valor["estoque"] -= 1
@@ -123,7 +110,7 @@ def alugar_livro(request, book_id):
     for c, l in livro_alugado.items():
         categoriaf = c
         livrof = l
-    
+
     context = {
         'livro': livrof,
         'categoria': categoriaf,
@@ -135,7 +122,7 @@ def alugar_livro(request, book_id):
 @login_required
 def lista_alugados(request):
     user = request.user  # Obtém o usuário atual
-    
+
     context = {
         'user': user,
         'alugados': alugados,
@@ -154,8 +141,8 @@ def categlivro(request, categid):
                 livros_correspondentes[chave] = valor
 
         if livros_correspondentes:
-                resultados[categoria] = livros_correspondentes
-    
+            resultados[categoria] = livros_correspondentes
+
     context = {
         "resultados": resultados,
     }
@@ -168,12 +155,12 @@ def register(request):
         if form.is_valid():
             user = form.save()
             login(request, user)  # Faça o login do usuário após o registro
-            return redirect('/')  # Redirecione para a página de perfil após o registro
+            return redirect('helloworld/')  # Redirecione para a página de perfil após o registro
     else:
         form = CustomUserCreationForm()
-        
+
     context = {
         'form': form
     }
-    
+
     return render(request, 'registration/register.html', context)
